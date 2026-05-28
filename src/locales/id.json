@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "HOME",
+    "organizations": "ORGANISASI",
+    "education": "PENDIDIKAN",
+    "companies": "PERUSAHAAN",
+    "skills": "KEAHLIAN",
+    "projects": "PROYEK",
+    "certificates": "SERTIFIKAT",
+    "comments": "KOMENTAR"
+  },
+  "hero": {
+    "openForOpportunities": "TERBUKA UNTUK PELUANG PROFESIONAL",
+    "helloIAm": "Halo, Saya"
+  },
+  "sections": {
+    "orgLabel": "Pengalaman Organisasi",
+    "orgTitle": "Kepemimpinan & Kolaborasi Tim.",
+    "eduLabel": "Riwayat Pendidikan",
+    "eduTitle": "Latar Belakang Akademis.",
+    "compLabel": "Pengalaman Kerja",
+    "compTitle": "Karier & Startup.",
+    "techLabel": "Keahlian Teknis",
+    "techTitle": "Teknologi yang Dikuasai.",
+    "projLabel": "Proyek Utama",
+    "projTitle": "Portofolio Digital.",
+    "certLabel": "Sertifikasi",
+    "certTitle": "Penghargaan & Bukti Kompetensi.",
+    "guestLabel": "Buku Tamu",
+    "guestTitle": "Tinggalkan Jejakmu."
+  },
+  "misc": {
+    "latestGraduate": "★ LULUSAN TERBARU",
+    "graduated": "Lulus",
+    "livePreview": "Live Preview",
+    "sourceCode": "Source Code",
+    "close": "Tutup",
+    "collaborate": "MARI BERKOLABORASI"
+  },
+  "footer": {
+    "collaborate": "MARI<br/><span>BERKOLABORASI.</span>",
+    "contactMe": "Hubungi Saya",
+    "about": "Tentang",
+    "aboutText": "Tertarik untuk mengembangkan proyek inovatif atau mendiskusikan peluang profesional? Saya selalu terbuka untuk menjalin komunikasi dan memperluas jaringan di bidang teknologi.",
+    "socialMedia": "Sosial Media",
+    "location": "Lokasi"
+  },
+  "guestbook": {
+    "title": "Komentar Publik",
+    "subtitle": "Silakan tinggalkan pesan, sapaan, ataupun masukan profesional untuk saya di sini.",
+    "yourName": "Nama Kamu",
+    "namePlaceholder": "Misal: John Doe",
+    "comment": "Komentar",
+    "commentPlaceholder": "Tulis pesan atau komentarmu di sini...",
+    "submit": "Kirim Komentar",
+    "errorMsg": "Gagal mengirim komentar. Pastikan koneksi internet stabil."
+  }
+}

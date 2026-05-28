@@ -1,0 +1,172 @@
+{
+  "hero": {
+    "marquee": [
+      "Full Stack Developer",
+      "Software Engineering",
+      "Founder Nexuvia Academy",
+      "Daily Study",
+      "Pantherax",
+      "React / Next.js"
+    ],
+    "statusTag": "Open for Professional Opportunities",
+    "name": "Muhamad Salman",
+    "cvLink": "",
+    "lanyard": {
+      "avatar": "/uploads/whatsapp-image-2026-05-27-at-10.54.41.jpeg",
+      "ropeColor": "#FFE500",
+      "cardBg": "#ffffff",
+      "accent1": "#FFE500",
+      "accent2": "#0033CC"
+    },
+    "school": "MAS Al Muhajirin Jakarta A' 2026",
+    "location": "Jakarta, Indonesia",
+    "role": "Full Stack Developer",
+    "fullName": "Muhamad Salman",
+    "description": "I am a Full Stack Developer focused on building fast and scalable web applications. I enjoy turning complex problems into real digital solutions. In the future, I also envision contributing to the tech education sector."
+  },
+  "organizations": [
+    {
+      "period": "2024 - 2025",
+      "role": "Student Council President",
+      "name": "MAS Al Muhajirin",
+      "desc": "Led the student council by managing dozens of members and organizing various large-scale events. Developed managerial, communication, and strategic problem-solving skills.",
+      "badgeText": "COUNCIL"
+    },
+    {
+      "period": "2023 - 2024",
+      "role": "Head of Multimedia",
+      "name": "Student Council MAS Al Muhajirin",
+      "desc": "Responsible for all visual aspects, graphic design, and documentation of school activities. Experienced in managing creative projects with tight deadlines.",
+      "badgeText": "MM"
+    }
+  ],
+  "education": [
+    {
+      "school": "MAS Al Muhajirin Jakarta",
+      "status": "Lulusan",
+      "year": "2026",
+      "desc": "Madrasah Aliyah berfokus pada keagamaan dan ilmu pengetahuan alam.",
+      "badgeText": "SMA/MA",
+      "color": "var(--yellow)"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Nexuvia Academy",
+      "role": "Founder",
+      "desc": "An offline tutoring institution specifically for middle school students, focusing on Mathematics mastery.",
+      "badgeText": "NX",
+      "color": "var(--yellow)",
+      "tilt": "rotate(-2deg)",
+      "logo": "/uploads/whatsapp-image-2026-05-27-at-11.05.29.jpeg"
+    },
+    {
+      "name": "Daily Study",
+      "role": "Founder",
+      "desc": "An interactive learning community that actively provides an ecosystem and integrated online tutoring programs for its members.",
+      "badgeText": "DS",
+      "color": "var(--blue)",
+      "tilt": "rotate(1deg)",
+      "logo": "/uploads/whatsapp-image-2026-05-27-at-11.05.17-1-.jpeg"
+    },
+    {
+      "name": "Pantherax Company",
+      "role": "Founder",
+      "desc": "A creative digital agency providing modern user interface (UI/UX) design and professional website development services.",
+      "badgeText": "PX",
+      "color": "var(--white)",
+      "tilt": "rotate(-1deg)",
+      "logo": "/uploads/whatsapp-image-2026-05-27-at-11.05.43.jpeg"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nexuvia LMS",
+      "desc": "A custom Learning Management System (LMS) developed for Nexuvia Academy. This platform facilitates material tracking, learning progress evaluation, and integrated student data management.",
+      "tech": [
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "github": "https://github.com",
+      "live": "https://nexuvia.com",
+      "bg": "var(--yellow)"
+    },
+    {
+      "name": "Daily Study App",
+      "desc": "A web-based application for building daily habits, equipped with a Pomodoro timer. This system is designed to improve productivity through easy-to-read statistics and a gamified approach.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "github": "https://github.com",
+      "live": "https://example.com",
+      "bg": "var(--blue)"
+    },
+    {
+      "name": "Pantherax CMS",
+      "desc": "A Headless Content Management System (CMS) designed specifically for Pantherax Company clients. Features a high-performance dashboard with an interface that is extremely easy for non-technical users to operate.",
+      "tech": [
+        "Vue",
+        "Express",
+        "MongoDB"
+      ],
+      "github": "https://github.com",
+      "live": "https://example.com",
+      "bg": "#00E5B0"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "2nd Place Provincial - Informatics",
+      "issuer": "University ID Education Platform",
+      "date": "Sep 2025",
+      "desc": "Certificate Number: 01/021/01040156/PROV/2025\nCompetition Name: National Level Olympiad Festival Competition\nAchievement: 2nd Place Provincial Level (DKI Jakarta)\nScore / Grade: 90 / A+",
+      "rotate": "rotate(-2deg)",
+      "file": "/uploads/whatsapp-image-2026-05-27-at-12.13.26-1-.jpeg"
+    },
+    {
+      "name": "National Gold Medal - Informatics",
+      "issuer": "University ID Education Platform",
+      "date": "Sep 2025",
+      "desc": "Certificate Number: 01/021/01040156/NAS/2025\nCompetition Name: National Level Olympiad Festival Competition\nAchievement: Gold Medal (9th Place Nationally)\nScore / Grade: 90 / A+",
+      "rotate": "rotate(1deg)",
+      "file": "/uploads/whatsapp-image-2026-05-27-at-12.13.26.jpeg"
+    },
+    {
+      "name": "National Gold Medal - Mathematics",
+      "issuer": "University ID Education Platform",
+      "date": "Sep 2025",
+      "desc": "Certificate Number: 01/021/01040156/NAS/2025\nCompetition Name: National Level Olympiad Festival Competition\nAchievement: Gold Medal (50th Place Nationally)\nScore / Grade: 95 / A+",
+      "rotate": "rotate(-1deg)"
+    },
+    {
+      "name": "5th Place Provincial - Mathematics",
+      "issuer": "University ID Education Platform",
+      "date": "Sep 2025",
+      "desc": "Certificate Number: 01/021/01040156/PROV/2025\nCompetition Name: National Level Olympiad Festival Competition\nAchievement: 5th Place Provincial Level (DKI Jakarta)\nScore / Grade: 95 / A+",
+      "rotate": "rotate(2deg)"
+    },
+    {
+      "name": "National Gold Medal - Informatics",
+      "issuer": "PRESMANESIA",
+      "date": "09 Mar 2025",
+      "desc": "Certificate Number: 1948058/PRESMANESIA/IOS-P/III/2025\nCompetition Name: Indonesian Olympiad of Science (IOS) 2025\nGrade: A+\nDate of Issue: Yogyakarta, 11 March 2025",
+      "rotate": "rotate(-1.5deg)"
+    },
+    {
+      "name": "National Bronze Medal - Informatics",
+      "issuer": "FOSNAS & Yayasan BHM",
+      "date": "02 Mar 2025",
+      "desc": "Certificate Number: 1948066/BHM-FOSNAS/RSCI-P/III/2025\nCompetition Name: Ramadhan Science Competition Indonesia (RSCI) 2025\nGrade: B+\nDate of Issue: North Sumatra, 04 March 2025",
+      "rotate": "rotate(1.5deg)"
+    }
+  ],
+  "socials": {
+    "email": "muheeee",
+    "github": "https://github.com/salman",
+    "linkedin": "https://linkedin.com/in/salman",
+    "instagram": "https://instagram.com/soulmatemath"
+  }
+}

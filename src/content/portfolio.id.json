@@ -1,0 +1,177 @@
+{
+  "hero": {
+    "marquee": [
+      "Full Stack Developer",
+      "Software Engineering",
+      "Founder Nexuvia Academy",
+      "Daily Study",
+      "Pantherax",
+      "React / Next.js"
+    ],
+    "statusTag": "Terbuka untuk Peluang Profesional",
+    "name": "Muhamad Salman",
+    "cvLink": "",
+    "lanyard": {
+      "avatar": "/uploads/whatsapp-image-2026-05-27-at-10.54.41.jpeg",
+      "ropeColor": "#FFE500",
+      "cardBg": "#ffffff",
+      "accent1": "#FFE500",
+      "accent2": "#0033CC"
+    },
+    "school": "MAS Al Muhajirin Jakarta · 2026",
+    "location": "Jakarta, Indonesia",
+    "role": "Full Stack Developer",
+    "fullName": "Muhamad Salman",
+    "description": "Saya adalah seorang Full Stack Developer yang berfokus pada perancangan aplikasi web yang cepat dan terukur. Saya sangat menikmati proses menerjemahkan masalah yang rumit menjadi solusi digital yang nyata. Ke depannya, saya juga memiliki visi untuk bisa berkontribusi di dunia pendidikan teknologi."
+  },
+  "organizations": [
+    {
+      "period": "2024 - 2025",
+      "role": "Ketua OSIS",
+      "name": "MAS Al Muhajirin",
+      "desc": "Memimpin organisasi sekolah dengan mengelola puluhan pengurus dan menyelenggarakan berbagai acara skala besar. Mengembangkan keterampilan manajerial, komunikasi, dan penyelesaian masalah strategis.",
+      "badgeText": "OSIS"
+    },
+    {
+      "period": "2023 - 2024",
+      "role": "Kepala Bidang Multimedia",
+      "name": "OSIS MAS Al Muhajirin",
+      "desc": "Bertanggung jawab atas seluruh aspek visual, desain grafis, dan dokumentasi kegiatan sekolah. Berpengalaman dalam mengelola proyek kreatif dengan tenggat waktu yang ketat.",
+      "badgeText": "MM"
+    }
+  ],
+  "education": [
+    {
+      "school": "MAS Al Muhajirin Jakarta",
+      "status": "Lulusan",
+      "year": "2026",
+      "desc": "Madrasah Aliyah berfokus pada keagamaan dan ilmu pengetahuan alam.",
+      "badgeText": "SMA/MA",
+      "color": "var(--yellow)",
+      "logo": "/uploads/1752155163840.png"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Nexuvia Academy",
+      "role": "Founder",
+      "desc": "Lembaga bimbingan belajar (les offline) khusus tingkat SMP yang berfokus pada penguasaan mata pelajaran Matematika.",
+      "badgeText": "NX",
+      "color": "var(--yellow)",
+      "tilt": "rotate(-2deg)",
+      "logo": "/uploads/whatsapp-image-2026-05-27-at-11.05.29.jpeg"
+    },
+    {
+      "name": "Daily Study",
+      "role": "Founder",
+      "desc": "Komunitas belajar interaktif yang secara aktif menyediakan ekosistem dan program les online terpadu bagi para anggotanya.",
+      "badgeText": "DS",
+      "color": "var(--blue)",
+      "tilt": "rotate(1deg)",
+      "logo": "/uploads/whatsapp-image-2026-05-27-at-11.05.17-1-.jpeg"
+    },
+    {
+      "name": "Pantherax Company",
+      "role": "Founder",
+      "desc": "Perusahaan digital kreatif yang menyediakan layanan desain antarmuka (UI/UX) modern dan pembuatan website profesional.",
+      "badgeText": "PX",
+      "color": "var(--white)",
+      "tilt": "rotate(-1deg)",
+      "logo": "/uploads/whatsapp-image-2026-05-27-at-11.05.43.jpeg"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nexuvia LMS",
+      "desc": "Sistem Manajemen Pembelajaran (LMS) khusus yang dikembangkan untuk Nexuvia Academy. Platform ini memfasilitasi pelacakan materi, evaluasi kemajuan belajar, serta pengelolaan data murid secara terpadu.",
+      "tech": [
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "github": "https://github.com",
+      "live": "https://nexuvia.com",
+      "bg": "var(--yellow)"
+    },
+    {
+      "name": "Daily Study App",
+      "desc": "Aplikasi berbasis web untuk membangun kebiasaan harian yang dilengkapi dengan fitur pengatur waktu Pomodoro. Sistem ini dirancang untuk meningkatkan produktivitas melalui sajian statistik yang mudah dibaca dan pendekatan gamifikasi.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "github": "https://github.com",
+      "live": "https://example.com",
+      "bg": "var(--blue)"
+    },
+    {
+      "name": "Pantherax CMS",
+      "desc": "Sistem Manajemen Konten (CMS) berbasis Headless yang dirancang secara spesifik untuk klien Pantherax Company. Memiliki dasbor berkinerja tinggi dengan antarmuka yang sangat mudah dioperasikan oleh pengguna non-teknis.",
+      "tech": [
+        "Vue",
+        "Express",
+        "MongoDB"
+      ],
+      "github": "https://github.com",
+      "live": "https://example.com",
+      "bg": "#00E5B0"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Peringkat 2 Provinsi - Informatika",
+      "issuer": "University ID Education Platform",
+      "date": "Sep 2025",
+      "desc": "Nomor Sertifikat: 01/021/01040156/PROV/2025\nNama Kompetisi: Kompetisi Festival Olimpiade Tingkat Nasional\nPrestasi: Peringkat 2 Tingkat Provinsi (DKI Jakarta)\nSkor / Mutu: 90 / A+",
+      "rotate": "rotate(-2deg)",
+      "file": "/uploads/whatsapp-image-2026-05-27-at-12.13.26-1-.jpeg"
+    },
+    {
+      "name": "Medali Emas Nasional - Informatika",
+      "issuer": "University ID Education Platform",
+      "date": "Sep 2025",
+      "desc": "Nomor Sertifikat: 01/021/01040156/NAS/2025\nNama Kompetisi: Kompetisi Festival Olimpiade Tingkat Nasional\nPrestasi: Predikat Medali Emas (Peringkat 9 Nasional)\nSkor / Mutu: 90 / A+",
+      "rotate": "rotate(1deg)",
+      "file": "/uploads/whatsapp-image-2026-05-27-at-12.13.26.jpeg"
+    },
+    {
+      "name": "Medali Emas Nasional - Matematika",
+      "issuer": "University ID Education Platform",
+      "date": "Sep 2025",
+      "desc": "Nomor Sertifikat: 01/021/01040156/NAS/2025\nNama Kompetisi: Kompetisi Festival Olimpiade Tingkat Nasional\nPrestasi: Predikat Medali Emas (Peringkat 50 Nasional)\nSkor / Mutu: 95 / A+",
+      "rotate": "rotate(-1deg)",
+      "file": "/uploads/whatsapp-image-2026-05-27-at-12.13.25-1-.jpeg"
+    },
+    {
+      "name": "Peringkat 5 Provinsi - Matematika",
+      "issuer": "University ID Education Platform",
+      "date": "Sep 2025",
+      "desc": "Nomor Sertifikat: 01/021/01040156/PROV/2025\nNama Kompetisi: Kompetisi Festival Olimpiade Tingkat Nasional\nPrestasi: Peringkat 5 Tingkat Provinsi (DKI Jakarta)\nSkor / Mutu: 95 / A+",
+      "rotate": "rotate(2deg)",
+      "file": "/uploads/whatsapp-image-2026-05-27-at-12.13.25.jpeg"
+    },
+    {
+      "name": "Medali Emas Nasional - Informatika",
+      "issuer": "PRESMANESIA",
+      "date": "09 Mar 2025",
+      "desc": "Nomor Sertifikat: 1948058/PRESMANESIA/IOS-P/III/2025\nNama Kompetisi: Indonesian Olympiad of Science (IOS) 2025\nPredikat: A+\nTanggal Terbit: Yogyakarta, 11 Maret 2025",
+      "rotate": "rotate(-1.5deg)",
+      "file": "/uploads/whatsapp-image-2026-05-27-at-12.13.24-1-.jpeg"
+    },
+    {
+      "name": "Medali Perunggu Nasional - Informatika",
+      "issuer": "FOSNAS & Yayasan BHM",
+      "date": "02 Mar 2025",
+      "desc": "Nomor Sertifikat: 1948066/BHM-FOSNAS/RSCI-P/III/2025\nNama Kompetisi: Ramadhan Science Competition Indonesia (RSCI) 2025\nPredikat: B+\nTanggal Terbit: Sumatera Utara, 04 Maret 2025",
+      "rotate": "rotate(1.5deg)",
+      "file": "/uploads/whatsapp-image-2026-05-27-at-12.13.24.jpeg"
+    }
+  ],
+  "socials": {
+    "email": "muheeee",
+    "github": "https://github.com/salman",
+    "linkedin": "https://linkedin.com/in/salman",
+    "instagram": "https://instagram.com/soulmatemath"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "hero": {
+    "marquee": [
+      "全栈开发工程师",
+      "软件工程",
+      "Nexuvia Academy 创始人",
+      "日常学习 (Daily Study)",
+      "Pantherax",
+      "React / Next.js"
+    ],
+    "statusTag": "对职业机会持开放态度",
+    "name": "穆罕默德·萨尔曼",
+    "cvLink": "",
+    "lanyard": {
+      "avatar": "/uploads/whatsapp-image-2026-05-27-at-10.54.41.jpeg",
+      "ropeColor": "#FFE500",
+      "cardBg": "#ffffff",
+      "accent1": "#FFE500",
+      "accent2": "#0033CC"
+    },
+    "school": "MAS Al Muhajirin 雅加达 A' 2026",
+    "location": "印尼，雅加达",
+    "role": "全栈开发工程师",
+    "fullName": "穆罕默德·萨尔曼",
+    "description": "我是一名全栈开发工程师，专注于构建快速且可扩展的 Web 应用程序。我热衷于将复杂的问题转化为真实的数字解决方案。未来，我也期望能在科技教育领域做出贡献。"
+  },
+  "organizations": [
+    {
+      "period": "2024 - 2025",
+      "role": "学生会主席",
+      "name": "MAS Al Muhajirin",
+      "desc": "领导学生会，管理数十名成员并组织各种大型活动。培养了管理、沟通和战略性解决问题的能力。",
+      "badgeText": "学生会"
+    },
+    {
+      "period": "2023 - 2024",
+      "role": "多媒体部部长",
+      "name": "MAS Al Muhajirin 学生会",
+      "desc": "负责学校活动的所有视觉效果、平面设计和文档记录。在紧迫的时间内拥有管理创意项目的经验。",
+      "badgeText": "多媒体"
+    }
+  ],
+  "education": [
+    {
+      "school": "MAS Al Muhajirin 雅加达",
+      "status": "毕业生",
+      "year": "2026",
+      "desc": "专注于宗教和自然科学的伊斯兰高中 (Madrasah Aliyah)。",
+      "badgeText": "SMA/MA",
+      "color": "var(--yellow)"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Nexuvia Academy",
+      "role": "创始人",
+      "desc": "一家专门针对初中生的线下辅导机构，专注于数学的掌握。",
+      "badgeText": "NX",
+      "color": "var(--yellow)",
+      "tilt": "rotate(-2deg)",
+      "logo": "/uploads/whatsapp-image-2026-05-27-at-11.05.29.jpeg"
+    },
+    {
+      "name": "Daily Study",
+      "role": "创始人",
+      "desc": "一个互动的学习社区，积极为其成员提供生态系统和综合的在线辅导计划。",
+      "badgeText": "DS",
+      "color": "var(--blue)",
+      "tilt": "rotate(1deg)",
+      "logo": "/uploads/whatsapp-image-2026-05-27-at-11.05.17-1-.jpeg"
+    },
+    {
+      "name": "Pantherax Company",
+      "role": "创始人",
+      "desc": "一家提供现代用户界面 (UI/UX) 设计和专业网站开发服务的创意数字机构。",
+      "badgeText": "PX",
+      "color": "var(--white)",
+      "tilt": "rotate(-1deg)",
+      "logo": "/uploads/whatsapp-image-2026-05-27-at-11.05.43.jpeg"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nexuvia LMS",
+      "desc": "为 Nexuvia Academy 开发的定制学习管理系统 (LMS)。该平台有助于材料跟踪、学习进度评估以及综合的学生数据管理。",
+      "tech": [
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "github": "https://github.com",
+      "live": "https://nexuvia.com",
+      "bg": "var(--yellow)"
+    },
+    {
+      "name": "Daily Study App",
+      "desc": "一个用于培养日常习惯的基于 Web 的应用程序，配有番茄钟。该系统旨在通过易于阅读的统计数据和游戏化的方法来提高生产力。",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "github": "https://github.com",
+      "live": "https://example.com",
+      "bg": "var(--blue)"
+    },
+    {
+      "name": "Pantherax CMS",
+      "desc": "专门为 Pantherax Company 客户设计的 Headless 内容管理系统 (CMS)。具有高性能的仪表板，并且具有对于非技术用户极其易于操作的界面。",
+      "tech": [
+        "Vue",
+        "Express",
+        "MongoDB"
+      ],
+      "github": "https://github.com",
+      "live": "https://example.com",
+      "bg": "#00E5B0"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "省第二名 - 信息学",
+      "issuer": "University ID Education Platform",
+      "date": "2025年9月",
+      "desc": "证书编号: 01/021/01040156/PROV/2025\n比赛名称: 全国级奥林匹克节比赛\n成绩: 省级（雅加达首都特区）第二名\n分数 / 等级: 90 / A+",
+      "rotate": "rotate(-2deg)",
+      "file": "/uploads/whatsapp-image-2026-05-27-at-12.13.26-1-.jpeg"
+    },
+    {
+      "name": "全国金牌 - 信息学",
+      "issuer": "University ID Education Platform",
+      "date": "2025年9月",
+      "desc": "证书编号: 01/021/01040156/NAS/2025\n比赛名称: 全国级奥林匹克节比赛\n成绩: 金牌（全国第9名）\n分数 / 等级: 90 / A+",
+      "rotate": "rotate(1deg)",
+      "file": "/uploads/whatsapp-image-2026-05-27-at-12.13.26.jpeg"
+    },
+    {
+      "name": "全国金牌 - 数学",
+      "issuer": "University ID Education Platform",
+      "date": "2025年9月",
+      "desc": "证书编号: 01/021/01040156/NAS/2025\n比赛名称: 全国级奥林匹克节比赛\n成绩: 金牌（全国第50名）\n分数 / 等级: 95 / A+",
+      "rotate": "rotate(-1deg)"
+    },
+    {
+      "name": "省第五名 - 数学",
+      "issuer": "University ID Education Platform",
+      "date": "2025年9月",
+      "desc": "证书编号: 01/021/01040156/PROV/2025\n比赛名称: 全国级奥林匹克节比赛\n成绩: 省级（雅加达首都特区）第五名\n分数 / 等级: 95 / A+",
+      "rotate": "rotate(2deg)"
+    },
+    {
+      "name": "全国金牌 - 信息学",
+      "issuer": "PRESMANESIA",
+      "date": "2025年3月9日",
+      "desc": "证书编号: 1948058/PRESMANESIA/IOS-P/III/2025\n比赛名称: 2025年印度尼西亚科学奥林匹克 (IOS)\n等级: A+\n签发日期: 日惹，2025年3月11日",
+      "rotate": "rotate(-1.5deg)"
+    },
+    {
+      "name": "全国铜牌 - 信息学",
+      "issuer": "FOSNAS & Yayasan BHM",
+      "date": "2025年3月2日",
+      "desc": "证书编号: 1948066/BHM-FOSNAS/RSCI-P/III/2025\n比赛名称: 2025年印度尼西亚斋月科学竞赛 (RSCI)\n等级: B+\n签发日期: 北苏门答腊，2025年3月4日",
+      "rotate": "rotate(1.5deg)"
+    }
+  ],
+  "socials": {
+    "email": "muheeee",
+    "github": "https://github.com/salman",
+    "linkedin": "https://linkedin.com/in/salman",
+    "instagram": "https://instagram.com/soulmatemath"
+  }
+}

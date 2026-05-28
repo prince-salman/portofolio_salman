@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "organizations": "المنظمات",
+    "education": "التعليم",
+    "companies": "الشركات",
+    "skills": "المهارات",
+    "projects": "المشاريع",
+    "certificates": "الشهادات",
+    "comments": "التعليقات"
+  },
+  "hero": {
+    "openForOpportunities": "متاح للفرص المهنية",
+    "helloIAm": "مرحباً، أنا"
+  },
+  "sections": {
+    "orgLabel": "الخبرة التنظيمية",
+    "orgTitle": "القيادة والعمل الجماعي.",
+    "eduLabel": "الخلفية التعليمية",
+    "eduTitle": "التاريخ الأكاديمي.",
+    "compLabel": "الخبرة العملية",
+    "compTitle": "الشركات الناشئة والمهن.",
+    "techLabel": "المهارات التقنية",
+    "techTitle": "التقنيات المتقنة.",
+    "projLabel": "المشاريع الرئيسية",
+    "projTitle": "معرض الأعمال الرقمية.",
+    "certLabel": "الشهادات",
+    "certTitle": "الجوائز وإثبات الكفاءة.",
+    "guestLabel": "سجل الزوار",
+    "guestTitle": "اترك بصمتك."
+  },
+  "misc": {
+    "latestGraduate": "★ خريج حديث",
+    "graduated": "تخرج في",
+    "livePreview": "معاينة مباشرة",
+    "sourceCode": "شفرة المصدر",
+    "close": "إغلاق",
+    "collaborate": "دعنا نتعاون"
+  },
+  "footer": {
+    "collaborate": "دعنا<br/><span>نتعاون.</span>",
+    "contactMe": "اتصل بي",
+    "about": "حول",
+    "aboutText": "هل أنت مهتم بتطوير مشاريع مبتكرة أو مناقشة الفرص المهنية؟ أنا منفتح دائمًا للتواصل وتوسيع شبكتي في مجال التكنولوجيا.",
+    "socialMedia": "وسائل التواصل",
+    "location": "الموقع"
+  },
+  "guestbook": {
+    "title": "سجل الزوار",
+    "subtitle": "يرجى ترك رسالة أو تحية أو تعليقات مهنية لي هنا.",
+    "yourName": "اسمك",
+    "namePlaceholder": "مثال: أحمد عبد الله",
+    "comment": "التعليق",
+    "commentPlaceholder": "اكتب رسالتك أو تعليقك هنا...",
+    "submit": "إرسال التعليق",
+    "errorMsg": "فشل إرسال التعليق. تأكد من استقرار الاتصال بالإنترنت."
+  }
+}

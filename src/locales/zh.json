@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "首页",
+    "organizations": "组织",
+    "education": "教育",
+    "companies": "公司",
+    "skills": "技能",
+    "projects": "项目",
+    "certificates": "证书",
+    "comments": "留言板"
+  },
+  "hero": {
+    "openForOpportunities": "对职业机会持开放态度",
+    "helloIAm": "你好，我是"
+  },
+  "sections": {
+    "orgLabel": "组织经验",
+    "orgTitle": "领导力与团队协作",
+    "eduLabel": "教育背景",
+    "eduTitle": "学术经历",
+    "compLabel": "工作经验",
+    "compTitle": "职业与创业",
+    "techLabel": "技术技能",
+    "techTitle": "掌握的技术",
+    "projLabel": "主要项目",
+    "projTitle": "数字作品集",
+    "certLabel": "认证",
+    "certTitle": "奖项与能力证明",
+    "guestLabel": "留言板",
+    "guestTitle": "留下您的印记"
+  },
+  "misc": {
+    "latestGraduate": "★ 最近毕业",
+    "graduated": "毕业于",
+    "livePreview": "实时预览",
+    "sourceCode": "源代码",
+    "close": "关闭",
+    "collaborate": "让我们合作吧"
+  },
+  "footer": {
+    "collaborate": "让我们<br/><span>合作吧.</span>",
+    "contactMe": "联系我",
+    "about": "关于",
+    "aboutText": "有兴趣开发创新项目或讨论专业机会吗？我始终对沟通和扩展科技行业人脉持开放态度。",
+    "socialMedia": "社交媒体",
+    "location": "位置"
+  },
+  "guestbook": {
+    "title": "公共留言板",
+    "subtitle": "请在此处留下您的留言、问候或专业反馈。",
+    "yourName": "您的名字",
+    "namePlaceholder": "例如：张三",
+    "comment": "留言内容",
+    "commentPlaceholder": "在此处写下您的留言或评论...",
+    "submit": "提交留言",
+    "errorMsg": "发送留言失败。请确保网络连接稳定。"
+  }
+}

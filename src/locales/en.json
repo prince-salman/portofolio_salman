@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "HOME",
+    "organizations": "ORGANIZATIONS",
+    "education": "EDUCATION",
+    "companies": "COMPANIES",
+    "skills": "SKILLS",
+    "projects": "PROJECTS",
+    "certificates": "CERTIFICATES",
+    "comments": "COMMENTS"
+  },
+  "hero": {
+    "openForOpportunities": "OPEN TO PROFESSIONAL OPPORTUNITIES",
+    "helloIAm": "Hello, I am"
+  },
+  "sections": {
+    "orgLabel": "Organization Experience",
+    "orgTitle": "Leadership & Team Collaboration.",
+    "eduLabel": "Education History",
+    "eduTitle": "Academic Background.",
+    "compLabel": "Work Experience",
+    "compTitle": "Careers & Startups.",
+    "techLabel": "Technical Skills",
+    "techTitle": "Mastered Technologies.",
+    "projLabel": "Key Projects",
+    "projTitle": "Digital Portfolio.",
+    "certLabel": "Certifications",
+    "certTitle": "Awards & Competency Proofs.",
+    "guestLabel": "Guestbook",
+    "guestTitle": "Leave Your Mark."
+  },
+  "misc": {
+    "latestGraduate": "★ RECENT GRADUATE",
+    "graduated": "Graduated",
+    "livePreview": "Live Preview",
+    "sourceCode": "Source Code",
+    "close": "Close",
+    "collaborate": "LET'S COLLABORATE"
+  },
+  "footer": {
+    "collaborate": "LET'S<br/><span>COLLABORATE.</span>",
+    "contactMe": "Contact Me",
+    "about": "About",
+    "aboutText": "Interested in developing innovative projects or discussing professional opportunities? I am always open to communicating and expanding my network in the tech industry.",
+    "socialMedia": "Social Media",
+    "location": "Location"
+  },
+  "guestbook": {
+    "title": "Public Guestbook",
+    "subtitle": "Please leave a message, greeting, or professional feedback for me here.",
+    "yourName": "Your Name",
+    "namePlaceholder": "E.g., John Doe",
+    "comment": "Comment",
+    "commentPlaceholder": "Write your message or comment here...",
+    "submit": "Submit Comment",
+    "errorMsg": "Failed to send comment. Ensure stable internet connection."
+  }
+}

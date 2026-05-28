@@ -1,0 +1,125 @@
+backend:
+  name: git-gateway
+  branch: main
+local_backend: true
+publish_mode: simple
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "portfolio_data"
+    label: "Portfolio Data"
+    files:
+      - file: "src/content/portfolio.id.json"
+        label: "🇮🇩 Portfolio (Indonesia)"
+        name: "portfolio_id"
+        fields: &portfolio_fields
+          - label: "Data Hero (Bagian Atas)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Nama Panggilan", name: "name", widget: "string"}
+              - {label: "Nama Lengkap", name: "fullName", widget: "string"}
+              - {label: "Role Utama", name: "role", widget: "string"}
+              - {label: "Sekolah & Angkatan", name: "school", widget: "string"}
+              - {label: "Deskripsi Diri", name: "description", widget: "text"}
+              - {label: "Lokasi Domisili (Cth: Jakarta, Indonesia)", name: "location", widget: "string", required: false}
+              - {label: "Status / Tag", name: "statusTag", widget: "string"}
+              - {label: "Link CV (PDF)", name: "cvLink", widget: "file", required: false}
+              - label: "Kustomisasi Foto Profil"
+                name: "lanyard"
+                widget: "object"
+                fields:
+                  - {label: "Foto Profil / Avatar", name: "avatar", widget: "image", required: false}
+                  - {label: "Warna Tali", name: "ropeColor", widget: "string", required: false}
+                  - {label: "Warna Kartu", name: "cardBg", widget: "string", required: false}
+                  - {label: "Aksen 1", name: "accent1", widget: "string", required: false}
+                  - {label: "Aksen 2", name: "accent2", widget: "string", required: false}
+              - label: "Teks Berjalan (Marquee)"
+                name: "marquee"
+                widget: "list"
+                field: {label: "Teks", name: "text", widget: "string"}
+          - label: "Data Organisasi"
+            name: "organizations"
+            widget: "list"
+            fields:
+              - {label: "Periode", name: "period", widget: "string"}
+              - {label: "Jabatan", name: "role", widget: "string"}
+              - {label: "Nama Organisasi", name: "name", widget: "string"}
+              - {label: "Logo Organisasi (Opsional)", name: "logo", widget: "image", required: false}
+              - {label: "Deskripsi", name: "desc", widget: "text"}
+              - {label: "Teks Badge Singkat", name: "badgeText", widget: "string"}
+          - label: "Riwayat Pendidikan"
+            name: "education"
+            widget: "list"
+            fields:
+              - {label: "Nama Sekolah", name: "school", widget: "string"}
+              - {label: "Status (Lulusan dll)", name: "status", widget: "string"}
+              - {label: "Tahun Lulus", name: "year", widget: "string"}
+              - {label: "Logo Sekolah (Opsional)", name: "logo", widget: "image", required: false}
+              - {label: "Deskripsi", name: "desc", widget: "text"}
+              - {label: "Teks Badge Singkat", name: "badgeText", widget: "string"}
+              - {label: "Warna Tema (var(--yellow), dll)", name: "color", widget: "string"}
+          - label: "Daftar Perusahaan / Startup"
+            name: "companies"
+            widget: "list"
+            fields:
+              - {label: "Nama Perusahaan", name: "name", widget: "string"}
+              - {label: "Peran / Jabatan", name: "role", widget: "string"}
+              - {label: "Logo Perusahaan (Opsional)", name: "logo", widget: "image", required: false}
+              - {label: "Deskripsi Singkat", name: "desc", widget: "text"}
+              - {label: "Teks Badge Singkat", name: "badgeText", widget: "string"}
+              - {label: "Warna Tema", name: "color", widget: "string"}
+              - {label: "Kemiringan Kartu (Contoh: rotate(-2deg))", name: "tilt", widget: "string"}
+          - label: "Project Pribadi"
+            name: "projects"
+            widget: "list"
+            fields:
+              - {label: "Nama Project", name: "name", widget: "string"}
+              - {label: "Deskripsi", name: "desc", widget: "text"}
+              - label: "Tech Stack"
+                name: "tech"
+                widget: "list"
+                field: {label: "Teknologi", name: "name", widget: "string"}
+              - {label: "Link GitHub", name: "github", widget: "string", required: false}
+              - {label: "Link Live Preview", name: "live", widget: "string", required: false}
+              - {label: "Gambar Project (Opsional)", name: "image", widget: "image", required: false}
+              - {label: "Warna Background Alternatif", name: "bg", widget: "string"}
+          - label: "Sertifikat"
+            name: "certificates"
+            widget: "list"
+            fields:
+              - {label: "Nama Sertifikat", name: "name", widget: "string"}
+              - {label: "Penerbit", name: "issuer", widget: "string"}
+              - {label: "Bulan & Tahun", name: "date", widget: "string"}
+              - {label: "Deskripsi / Detail Tambahan", name: "desc", widget: "text", required: false}
+              - {label: "File Sertifikat (Gambar)", name: "file", widget: "image", required: false}
+              - {label: "Kemiringan Stempel (rotate(1deg))", name: "rotate", widget: "string"}
+          - label: "Link Sosial Media & Kontak"
+            name: "socials"
+            widget: "object"
+            fields:
+              - {label: "Alamat Email", name: "email", widget: "string"}
+              - {label: "Link GitHub", name: "github", widget: "string"}
+              - {label: "Link LinkedIn", name: "linkedin", widget: "string"}
+              - {label: "Link Instagram", name: "instagram", widget: "string"}
+
+      - file: "src/content/portfolio.en.json"
+        label: "🇬🇧 Portfolio (English)"
+        name: "portfolio_en"
+        fields: *portfolio_fields
+
+      - file: "src/content/portfolio.zh.json"
+        label: "🇨🇳 Portfolio (Mandarin)"
+        name: "portfolio_zh"
+        fields: *portfolio_fields
+
+      - file: "src/content/portfolio.pt.json"
+        label: "🇵🇹 Portfolio (Portuguese)"
+        name: "portfolio_pt"
+        fields: *portfolio_fields
+
+      - file: "src/content/portfolio.ar.json"
+        label: "🇸🇦 Portfolio (Arabic)"
+        name: "portfolio_ar"
+        fields: *portfolio_fields

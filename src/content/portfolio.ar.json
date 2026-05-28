@@ -1,0 +1,172 @@
+{
+  "hero": {
+    "marquee": [
+      "مطور الويب الشامل",
+      "هندسة البرمجيات",
+      "مؤسس أكاديمية نيكسوفيا",
+      "دراسة يومية",
+      "بانثيراكس",
+      "React / Next.js"
+    ],
+    "statusTag": "متاح للفرص المهنية",
+    "name": "محمد سلمان",
+    "cvLink": "",
+    "lanyard": {
+      "avatar": "/uploads/whatsapp-image-2026-05-27-at-10.54.41.jpeg",
+      "ropeColor": "#FFE500",
+      "cardBg": "#ffffff",
+      "accent1": "#FFE500",
+      "accent2": "#0033CC"
+    },
+    "school": "المدرسة العالية المهاجرين جاكرتا ٢٠٢٦",
+    "location": "جاكرتا، إندونيسيا",
+    "role": "مطور الويب الشامل",
+    "fullName": "محمد سلمان",
+    "description": "أنا مطور ويب شامل أركز على تصميم تطبيقات ويب سريعة وقابلة للتطوير. أستمتع بتحويل المشكلات المعقدة إلى حلول رقمية حقيقية. في المستقبل، أمتلك أيضًا رؤية للمساهمة في عالم التكنولوجيا التعليمية."
+  },
+  "organizations": [
+    {
+      "period": "2024 - 2025",
+      "role": "رئيس مجلس الطلبة",
+      "name": "المدرسة العالية المهاجرين",
+      "desc": "قيادة مجلس الطلبة من خلال إدارة العشرات من الأعضاء وتنظيم الفعاليات واسعة النطاق. تطوير المهارات الإدارية، والتواصل، وحل المشكلات بشكل استراتيجي.",
+      "badgeText": "OSIS"
+    },
+    {
+      "period": "2023 - 2024",
+      "role": "رئيس قسم الوسائط المتعددة",
+      "name": "مجلس طلبة المدرسة العالية المهاجرين",
+      "desc": "مسؤول عن جميع الجوانب البصرية، وتصميم الجرافيك، وتوثيق الأنشطة المدرسية. خبرة في إدارة المشاريع الإبداعية بمواعيد تسليم صارمة.",
+      "badgeText": "MM"
+    }
+  ],
+  "education": [
+    {
+      "school": "MAS Al Muhajirin Jakarta",
+      "status": "Lulusan",
+      "year": "2026",
+      "desc": "Madrasah Aliyah berfokus pada keagamaan dan ilmu pengetahuan alam.",
+      "badgeText": "SMA/MA",
+      "color": "var(--yellow)"
+    }
+  ],
+  "companies": [
+    {
+      "name": "أكاديمية نيكسوفيا",
+      "role": "مؤسس",
+      "desc": "مؤسسة للدروس الخصوصية الحضورية لطلاب المرحلة الإعدادية، متخصصة في إتقان مادة الرياضيات.",
+      "badgeText": "NX",
+      "color": "var(--yellow)",
+      "tilt": "rotate(-2deg)",
+      "logo": "/uploads/whatsapp-image-2026-05-27-at-11.05.29.jpeg"
+    },
+    {
+      "name": "ديلي ستادي",
+      "role": "مؤسس",
+      "desc": "مجتمع تعليمي تفاعلي يوفر بنشاط بيئة تعليمية وبرامج دروس عبر الإنترنت متكاملة لأعضائه.",
+      "badgeText": "DS",
+      "color": "var(--blue)",
+      "tilt": "rotate(1deg)",
+      "logo": "/uploads/whatsapp-image-2026-05-27-at-11.05.17-1-.jpeg"
+    },
+    {
+      "name": "شركة بانثيراكس",
+      "role": "مؤسس",
+      "desc": "وكالة رقمية إبداعية تقدم خدمات تصميم واجهات المستخدم (UI/UX) الحديثة وتطوير المواقع الاحترافية.",
+      "badgeText": "PX",
+      "color": "var(--white)",
+      "tilt": "rotate(-1deg)",
+      "logo": "/uploads/whatsapp-image-2026-05-27-at-11.05.43.jpeg"
+    }
+  ],
+  "projects": [
+    {
+      "name": "نيكسوفيا LMS",
+      "desc": "نظام إدارة التعلم (LMS) تم تطويره خصيصًا لأكاديمية نيكسوفيا. هذه المنصة تسهل تتبع المواد، وتقييم تقدم التعلم، بالإضافة إلى إدارة بيانات الطلاب بشكل متكامل.",
+      "tech": [
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "github": "https://github.com",
+      "live": "https://nexuvia.com",
+      "bg": "var(--yellow)"
+    },
+    {
+      "name": "تطبيق ديلي ستادي",
+      "desc": "تطبيق ويب لبناء العادات اليومية مزود بمؤقت بومودورو. صُمم النظام لتحسين الإنتاجية من خلال إحصائيات سهلة القراءة ونهج قائم على التحفيز (Gamification).",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "github": "https://github.com",
+      "live": "https://example.com",
+      "bg": "var(--blue)"
+    },
+    {
+      "name": "بانثيراكس CMS",
+      "desc": "نظام إدارة محتوى (CMS) مصمم خصيصًا لعملاء شركة بانثيراكس. يتميز بلوحة تحكم عالية الأداء مع واجهة مستخدم سهلة الاستخدام للغاية للمستخدمين غير التقنيين.",
+      "tech": [
+        "Vue",
+        "Express",
+        "MongoDB"
+      ],
+      "github": "https://github.com",
+      "live": "https://example.com",
+      "bg": "#00E5B0"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "المركز الثاني على مستوى المقاطعة - المعلوماتية",
+      "issuer": "University ID Education Platform",
+      "date": "سبتمبر 2025",
+      "desc": "رقم الشهادة: 01/021/01040156/PROV/2025\nالمركز الثاني (جاكرتا)\nالدرجة: 90 / A+",
+      "rotate": "rotate(-2deg)",
+      "file": "/uploads/whatsapp-image-2026-05-27-at-12.13.26-1-.jpeg"
+    },
+    {
+      "name": "الميدالية الذهبية الوطنية - المعلوماتية",
+      "issuer": "University ID Education Platform",
+      "date": "سبتمبر 2025",
+      "desc": "رقم الشهادة: 01/021/01040156/NAS/2025\nالميدالية الذهبية الوطنية\nالدرجة: 90 / A+",
+      "rotate": "rotate(1deg)",
+      "file": "/uploads/whatsapp-image-2026-05-27-at-12.13.26.jpeg"
+    },
+    {
+      "name": "الميدالية الذهبية الوطنية - الرياضيات",
+      "issuer": "University ID Education Platform",
+      "date": "سبتمبر 2025",
+      "desc": "رقم الشهادة: 01/021/01040156/NAS/2025\nالمركز 50 على مستوى الوطن\nالدرجة: 95 / A+",
+      "rotate": "rotate(-1deg)"
+    },
+    {
+      "name": "المركز الخامس على مستوى المقاطعة - الرياضيات",
+      "issuer": "University ID Education Platform",
+      "date": "سبتمبر 2025",
+      "desc": "رقم الشهادة: 01/021/01040156/PROV/2025\nالمركز الخامس (جاكرتا)\nالدرجة: 95 / A+",
+      "rotate": "rotate(2deg)"
+    },
+    {
+      "name": "الميدالية الذهبية الوطنية - المعلوماتية",
+      "issuer": "PRESMANESIA",
+      "date": "09 مارس 2025",
+      "desc": "رقم الشهادة: 1948058/PRESMANESIA/IOS-P/III/2025\nأولمبياد إندونيسيا للعلوم\nالدرجة: A+",
+      "rotate": "rotate(-1.5deg)"
+    },
+    {
+      "name": "الميدالية البرونزية الوطنية - المعلوماتية",
+      "issuer": "FOSNAS & Yayasan BHM",
+      "date": "02 مارس 2025",
+      "desc": "رقم الشهادة: 1948066/BHM-FOSNAS/RSCI-P/III/2025\nمسابقة رمضان للعلوم\nالدرجة: B+",
+      "rotate": "rotate(1.5deg)"
+    }
+  ],
+  "socials": {
+    "email": "muheeee",
+    "github": "https://github.com/salman",
+    "linkedin": "https://linkedin.com/in/salman",
+    "instagram": "https://instagram.com/soulmatemath"
+  }
+}

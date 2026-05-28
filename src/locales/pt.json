@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "INÍCIO",
+    "organizations": "ORGANIZAÇÕES",
+    "education": "EDUCAÇÃO",
+    "companies": "EMPRESAS",
+    "skills": "HABILIDADES",
+    "projects": "PROJETOS",
+    "certificates": "CERTIFICADOS",
+    "comments": "COMENTÁRIOS"
+  },
+  "hero": {
+    "openForOpportunities": "ABERTO PARA OPORTUNIDADES",
+    "helloIAm": "Olá, Eu sou"
+  },
+  "sections": {
+    "orgLabel": "Experiência Organizacional",
+    "orgTitle": "Liderança e Colaboração em Equipe.",
+    "eduLabel": "Histórico Educacional",
+    "eduTitle": "Formação Acadêmica.",
+    "compLabel": "Experiência de Trabalho",
+    "compTitle": "Carreiras e Startups.",
+    "techLabel": "Habilidades Técnicas",
+    "techTitle": "Tecnologias Dominadas.",
+    "projLabel": "Principais Projetos",
+    "projTitle": "Portfólio Digital.",
+    "certLabel": "Certificações",
+    "certTitle": "Prêmios e Comprovantes de Competência.",
+    "guestLabel": "Livro de Visitas",
+    "guestTitle": "Deixe sua Marca."
+  },
+  "misc": {
+    "latestGraduate": "★ RECÉM FORMADO",
+    "graduated": "Formado em",
+    "livePreview": "Ver ao Vivo",
+    "sourceCode": "Código Fonte",
+    "close": "Fechar",
+    "collaborate": "VAMOS COLABORAR"
+  },
+  "footer": {
+    "collaborate": "VAMOS<br/><span>COLABORAR.</span>",
+    "contactMe": "Contate-me",
+    "about": "Sobre",
+    "aboutText": "Interessado em desenvolver projetos inovadores ou discutir oportunidades profissionais? Estou sempre aberto a comunicar e expandir minha rede na área de tecnologia.",
+    "socialMedia": "Redes Sociais",
+    "location": "Localização"
+  },
+  "guestbook": {
+    "title": "Livro de Visitas",
+    "subtitle": "Deixe uma mensagem, saudação ou feedback profissional para mim aqui.",
+    "yourName": "Seu Nome",
+    "namePlaceholder": "Ex: João Silva",
+    "comment": "Comentário",
+    "commentPlaceholder": "Escreva sua mensagem ou comentário aqui...",
+    "submit": "Enviar Comentário",
+    "errorMsg": "Falha ao enviar comentário. Verifique a conexão com a internet."
+  }
+}
