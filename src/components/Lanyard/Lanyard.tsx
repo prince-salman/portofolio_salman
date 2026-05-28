@@ -143,7 +143,7 @@ function SpringLanyard({ isMobile = false }: { isMobile?: boolean }) {
 
   // Load dynamic texture from CMS if exists, otherwise fallback to local asset
   const textureUrl = hero.lanyard?.texture || defaultLanyardTexture
-  const texture = useTexture(textureUrl)
+  const texture = useTexture(textureUrl) as THREE.Texture
   texture.wrapS = texture.wrapT = THREE.RepeatWrapping
 
   const [curve] = useState(() => new THREE.CatmullRomCurve3([

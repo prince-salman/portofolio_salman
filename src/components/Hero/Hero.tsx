@@ -397,7 +397,7 @@ export default function Hero() {
       })
     }
 
-    let timer: number
+    let timer: ReturnType<typeof setTimeout>
     
     if (isDeleting && typedRole === '') {
       setIsDeleting(false)
