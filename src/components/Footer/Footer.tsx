@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { usePortfolioData } from '../../hooks/usePortfolioData'
 import { useTranslation, Trans } from 'react-i18next'
-import { RiGithubFill, RiInstagramLine, RiLinkedinFill, RiArrowUpLine, RiArrowRightUpLine } from 'react-icons/ri'
+import { RiInstagramLine, RiTiktokFill, RiArrowUpLine, RiArrowRightUpLine } from 'react-icons/ri'
 
 const FooterSection = styled.footer`
   background: var(--yellow);
@@ -228,14 +228,9 @@ export default function Footer() {
 
         <Column>
           <ColTitle>{t('footer.socialMedia')}</ColTitle>
-          {portfolioData.socials.github && (
-            <SocialLink href={portfolioData.socials.github} target="_blank" rel="noopener noreferrer">
-              <RiGithubFill /> {formatUrl(portfolioData.socials.github)}
-            </SocialLink>
-          )}
-          {portfolioData.socials.linkedin && (
-            <SocialLink href={portfolioData.socials.linkedin} target="_blank" rel="noopener noreferrer">
-              <RiLinkedinFill /> {formatUrl(portfolioData.socials.linkedin)}
+          {portfolioData.socials.tiktok && (
+            <SocialLink href={portfolioData.socials.tiktok} target="_blank" rel="noopener noreferrer">
+              <RiTiktokFill /> {formatUrl(portfolioData.socials.tiktok)}
             </SocialLink>
           )}
           {portfolioData.socials.instagram && (

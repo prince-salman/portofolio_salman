@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
 import HeroPhoto from './HeroPhoto'
-import { RiArrowDownLine, RiGithubFill, RiInstagramLine, RiLinkedinFill, RiMapPin2Fill } from 'react-icons/ri'
+import { RiArrowDownLine, RiInstagramLine, RiTiktokFill, RiMapPin2Fill } from 'react-icons/ri'
 import { useScrollReveal } from '../../hooks/useScrollReveal'
 import { usePortfolioData } from '../../hooks/usePortfolioData'
 import { useTranslation } from 'react-i18next'
@@ -508,14 +508,9 @@ export default function Hero() {
         </HeroCTAs>
 
         <SocialLinks>
-          {socials.github && (
-            <SocialLink href={socials.github} target="_blank" aria-label="GitHub">
-              <RiGithubFill />
-            </SocialLink>
-          )}
-          {socials.linkedin && (
-            <SocialLink href={socials.linkedin} target="_blank" aria-label="LinkedIn">
-              <RiLinkedinFill />
+          {socials.tiktok && (
+            <SocialLink href={socials.tiktok} target="_blank" aria-label="TikTok">
+              <RiTiktokFill />
             </SocialLink>
           )}
           {socials.instagram && (

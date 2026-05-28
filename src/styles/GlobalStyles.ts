@@ -30,6 +30,8 @@ export const GlobalStyles = createGlobalStyle`
   html {
     scroll-behavior: smooth;
     font-size: 16px;
+    overflow-x: hidden;
+    width: 100vw;
   }
 
   body {
@@ -38,6 +40,7 @@ export const GlobalStyles = createGlobalStyle`
     color: var(--blue);
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
   }
 
   h1, h2, h3, h4, h5, h6 {

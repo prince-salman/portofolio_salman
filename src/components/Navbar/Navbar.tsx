@@ -213,8 +213,6 @@ export default function Navbar() {
   // Close drawer on scroll and update active section
   useEffect(() => {
     const handleScroll = () => {
-      if (open) setOpen(false)
-
       // Simple active section detection
       const sections = NAV.map(n => n.href.substring(1))
       const scrollPosition = window.scrollY + 100
