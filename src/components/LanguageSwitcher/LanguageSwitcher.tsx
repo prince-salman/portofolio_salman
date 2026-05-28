@@ -6,6 +6,13 @@ const DropdownContainer = styled.div`
   position: relative;
   display: inline-block;
   z-index: 100;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const SwitcherButton = styled.button`
@@ -45,6 +52,14 @@ const DropdownMenu = styled.div<{ $isOpen: boolean }>`
   display: ${({ $isOpen }) => ($isOpen ? 'flex' : 'none')};
   flex-direction: column;
   min-width: 140px;
+
+  @media (max-width: 1024px) {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    border: 2px solid var(--blue);
+    margin-top: 15px;
+  }
 `;
 
 const LangOption = styled.button<{ $active: boolean }>`

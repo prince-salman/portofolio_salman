@@ -33,17 +33,24 @@ const FooterTop = styled.div`
 
 const MegaText = styled.h2`
   font-family: var(--font-display);
-  font-size: clamp(4rem, 10vw, 8rem);
+  font-size: clamp(2rem, 10vw, 8rem);
   font-weight: 900;
-  line-height: 0.85;
+  line-height: 0.95;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   max-width: 900px;
+  word-wrap: break-word;
 
   span {
     color: var(--blue);
     -webkit-text-stroke: 2px var(--blue);
     color: transparent;
+  }
+
+  @media (max-width: 768px) {
+    font-size: clamp(2.5rem, 12vw, 4rem);
+    line-height: 1.1;
+    -webkit-text-stroke: 1px var(--blue);
   }
 `
 
