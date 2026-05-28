@@ -145,8 +145,10 @@ const MobileDrawer = styled.div<{ $open: boolean }>`
   top: 80px;
   left: 0;
   right: 0;
+  bottom: 0;
   background: var(--blue);
   border-bottom: 3px solid #000;
+  overflow-y: auto;
   transform: ${({ $open }) => ($open ? 'translateY(0)' : 'translateY(-100%)')};
   opacity: ${({ $open }) => ($open ? 1 : 0)};
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
@@ -259,6 +261,9 @@ export default function Navbar() {
 
       {/* Mobile drawer */}
       <MobileDrawer $open={open}>
+        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '15px' }}>
+          <LanguageSwitcher />
+        </div>
         {NAV.map(n => (
           <MobileLink 
             key={n.href} 
@@ -269,9 +274,6 @@ export default function Navbar() {
             {n.label}
           </MobileLink>
         ))}
-        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
-          <LanguageSwitcher />
-        </div>
       </MobileDrawer>
     </>
   )
