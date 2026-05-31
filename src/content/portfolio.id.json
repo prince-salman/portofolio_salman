@@ -85,10 +85,13 @@
       "name": "Snap Booth",
       "desc": "Sebuah website interaktif untuk layanan penyewaan foto booth.",
       "tech": [
+        "TypeScript",
+        "JavaScript",
         "HTML",
         "CSS",
-        "JavaScript",
-        "Netlify"
+        "Next.js",
+        "Tailwind CSS",
+        "Zustand"
       ],
       "github": "https://github.com/prince-salman/SnapBooth",
       "live": "https://snapboothh.netlify.app/",

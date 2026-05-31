@@ -84,10 +84,13 @@
       "name": "Snap Booth",
       "desc": "Um site interativo para serviços de aluguel de cabine de fotos.",
       "tech": [
+        "TypeScript",
+        "JavaScript",
         "HTML",
         "CSS",
-        "JavaScript",
-        "Netlify"
+        "Next.js",
+        "Tailwind CSS",
+        "Zustand"
       ],
       "github": "https://github.com/prince-salman/SnapBooth",
       "live": "https://snapboothh.netlify.app/",

@@ -84,10 +84,13 @@
       "name": "Snap Booth",
       "desc": "一个用于照片亭租赁服务的互动网站。",
       "tech": [
+        "TypeScript",
+        "JavaScript",
         "HTML",
         "CSS",
-        "JavaScript",
-        "Netlify"
+        "Next.js",
+        "Tailwind CSS",
+        "Zustand"
       ],
       "github": "https://github.com/prince-salman/SnapBooth",
       "live": "https://snapboothh.netlify.app/",
