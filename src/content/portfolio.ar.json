@@ -81,16 +81,18 @@
   ],
   "projects": [
     {
-      "name": "نيكسوفيا LMS",
-      "desc": "نظام إدارة التعلم (LMS) تم تطويره خصيصًا لأكاديمية نيكسوفيا. هذه المنصة تسهل تتبع المواد، وتقييم تقدم التعلم، بالإضافة إلى إدارة بيانات الطلاب بشكل متكامل.",
+      "name": "Snap Booth",
+      "desc": "موقع تفاعلي لخدمات تأجير كشك التصوير.",
       "tech": [
-        "React",
-        "Node.js",
-        "PostgreSQL"
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Netlify"
       ],
-      "github": "https://github.com",
-      "live": "https://nexuvia.com",
-      "bg": "var(--yellow)"
+      "github": "https://github.com/prince-salman/SnapBooth",
+      "live": "https://snapboothh.netlify.app/",
+      "bg": "#0033CC",
+      "image": "/snapbooth.jpg"
     },
     {
       "name": "تطبيق ديلي ستادي",

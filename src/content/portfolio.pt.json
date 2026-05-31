@@ -81,16 +81,18 @@
   ],
   "projects": [
     {
-      "name": "Nexuvia LMS",
-      "desc": "Um Sistema de Gestão de Aprendizagem (LMS) personalizado desenvolvido para a Nexuvia Academy. Esta plataforma facilita o rastreamento de materiais, a avaliação do progresso da aprendizagem e o gerenciamento integrado de dados dos alunos.",
+      "name": "Snap Booth",
+      "desc": "Um site interativo para serviços de aluguel de cabine de fotos.",
       "tech": [
-        "React",
-        "Node.js",
-        "PostgreSQL"
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Netlify"
       ],
-      "github": "https://github.com",
-      "live": "https://nexuvia.com",
-      "bg": "var(--yellow)"
+      "github": "https://github.com/prince-salman/SnapBooth",
+      "live": "https://snapboothh.netlify.app/",
+      "bg": "#0033CC",
+      "image": "/snapbooth.jpg"
     },
     {
       "name": "Daily Study App",
