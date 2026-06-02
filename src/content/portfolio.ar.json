@@ -92,7 +92,6 @@
         "Tailwind CSS",
         "Zustand"
       ],
-      "github": "https://github.com/prince-salman/SnapBooth",
       "live": "https://snapboothh.netlify.app/",
       "bg": "#0033CC",
       "image": "/snapbooth.jpg"
@@ -105,7 +104,6 @@
         "TypeScript",
         "Tailwind"
       ],
-      "github": "https://github.com",
       "live": "https://example.com",
       "bg": "var(--blue)"
     },
@@ -117,7 +115,6 @@
         "Express",
         "MongoDB"
       ],
-      "github": "https://github.com",
       "live": "https://example.com",
       "bg": "#00E5B0"
     }
