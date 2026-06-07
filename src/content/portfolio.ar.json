@@ -97,15 +97,17 @@
       "image": "/snapbooth.jpg"
     },
     {
-      "name": "تطبيق ديلي ستادي",
-      "desc": "تطبيق ويب لبناء العادات اليومية مزود بمؤقت بومودورو. صُمم النظام لتحسين الإنتاجية من خلال إحصائيات سهلة القراءة ونهج قائم على التحفيز (Gamification).",
+      "name": "Scheduly",
+      "desc": "تطبيق ويب تفاعلي لتنظيم وإدارة الجداول الزمنية بسهولة وكفاءة.",
       "tech": [
+        "React",
         "Next.js",
-        "TypeScript",
-        "Tailwind"
+        "Tailwind CSS",
+        "TypeScript"
       ],
-      "live": "https://example.com",
-      "bg": "var(--blue)"
+      "live": "https://scheduly-id.vercel.app/login",
+      "bg": "#00E5B0",
+      "image": "/scheduly.jpg"
     },
     {
       "name": "بانثيراكس CMS",

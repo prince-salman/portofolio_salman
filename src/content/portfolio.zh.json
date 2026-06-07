@@ -97,15 +97,17 @@
       "image": "/snapbooth.jpg"
     },
     {
-      "name": "Daily Study App",
-      "desc": "一个用于培养日常习惯的基于 Web 的应用程序，配有番茄钟。该系统旨在通过易于阅读的统计数据和游戏化的方法来提高生产力。",
+      "name": "Scheduly",
+      "desc": "一个用于轻松高效组织和管理日程安排的互动Web应用程序。",
       "tech": [
+        "React",
         "Next.js",
-        "TypeScript",
-        "Tailwind"
+        "Tailwind CSS",
+        "TypeScript"
       ],
-      "live": "https://example.com",
-      "bg": "var(--blue)"
+      "live": "https://scheduly-id.vercel.app/login",
+      "bg": "#00E5B0",
+      "image": "/scheduly.jpg"
     },
     {
       "name": "Pantherax CMS",

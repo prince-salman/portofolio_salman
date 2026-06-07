@@ -98,15 +98,17 @@
       "image": "/snapbooth.jpg"
     },
     {
-      "name": "Daily Study App",
-      "desc": "Aplikasi berbasis web untuk membangun kebiasaan harian yang dilengkapi dengan fitur pengatur waktu Pomodoro. Sistem ini dirancang untuk meningkatkan produktivitas melalui sajian statistik yang mudah dibaca dan pendekatan gamifikasi.",
+      "name": "Scheduly",
+      "desc": "Sebuah aplikasi web interaktif untuk mengatur dan memanajemen jadwal dengan mudah dan efisien.",
       "tech": [
+        "React",
         "Next.js",
-        "TypeScript",
-        "Tailwind"
+        "Tailwind CSS",
+        "TypeScript"
       ],
-      "live": "https://example.com",
-      "bg": "var(--blue)"
+      "live": "https://scheduly-id.vercel.app/login",
+      "bg": "#00E5B0",
+      "image": "/scheduly.jpg"
     },
     {
       "name": "Pantherax CMS",

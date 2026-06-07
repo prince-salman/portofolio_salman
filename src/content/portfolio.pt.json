@@ -97,15 +97,17 @@
       "image": "/snapbooth.jpg"
     },
     {
-      "name": "Daily Study App",
-      "desc": "Uma aplicação baseada em web para a construção de hábitos diários, equipada com um temporizador Pomodoro. Este sistema foi desenhado para melhorar a produtividade através de estatísticas fáceis de ler e uma abordagem gamificada.",
+      "name": "Scheduly",
+      "desc": "Uma aplicação web interativa para organizar e gerenciar horários de forma fácil e eficiente.",
       "tech": [
+        "React",
         "Next.js",
-        "TypeScript",
-        "Tailwind"
+        "Tailwind CSS",
+        "TypeScript"
       ],
-      "live": "https://example.com",
-      "bg": "var(--blue)"
+      "live": "https://scheduly-id.vercel.app/login",
+      "bg": "#00E5B0",
+      "image": "/scheduly.jpg"
     },
     {
       "name": "Pantherax CMS",

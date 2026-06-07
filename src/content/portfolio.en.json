@@ -97,15 +97,17 @@
       "image": "/snapbooth.jpg"
     },
     {
-      "name": "Daily Study App",
-      "desc": "A web-based application for building daily habits, equipped with a Pomodoro timer. This system is designed to improve productivity through easy-to-read statistics and a gamified approach.",
+      "name": "Scheduly",
+      "desc": "An interactive web application for organizing and managing schedules easily and efficiently.",
       "tech": [
+        "React",
         "Next.js",
-        "TypeScript",
-        "Tailwind"
+        "Tailwind CSS",
+        "TypeScript"
       ],
-      "live": "https://example.com",
-      "bg": "var(--blue)"
+      "live": "https://scheduly-id.vercel.app/login",
+      "bg": "#00E5B0",
+      "image": "/scheduly.jpg"
     },
     {
       "name": "Pantherax CMS",
