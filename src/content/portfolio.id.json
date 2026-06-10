@@ -101,24 +101,32 @@
       "name": "Scheduly",
       "desc": "Sebuah aplikasi web interaktif untuk mengatur dan memanajemen jadwal dengan mudah dan efisien.",
       "tech": [
-        "React",
-        "Next.js",
-        "Tailwind CSS",
-        "TypeScript"
+        "PHP",
+        "Laravel 12",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PostgreSQL",
+        "Supabase"
       ],
       "live": "https://scheduly-id.vercel.app/login",
       "bg": "#00E5B0",
       "image": "/scheduly.jpg"
     },
     {
-      "name": "Pantherax CMS",
-      "desc": "Sistem Manajemen Konten (CMS) berbasis Headless yang dirancang secara spesifik untuk klien Pantherax Company. Memiliki dasbor berkinerja tinggi dengan antarmuka yang sangat mudah dioperasikan oleh pengguna non-teknis.",
+      "name": "Musholla Baitunnahri",
+      "desc": "Aplikasi masjid/musholla progresif (PWA) untuk manajemen kas dan informasi Musholla Baitunnahri dengan antarmuka modern.",
       "tech": [
-        "Vue",
-        "Express",
-        "MongoDB"
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "Prisma",
+        "PostgreSQL",
+        "PWA"
       ],
-      "live": "https://example.com",
+      "live": "",
       "bg": "#00E5B0"
     }
   ],

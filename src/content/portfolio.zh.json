@@ -100,24 +100,32 @@
       "name": "Scheduly",
       "desc": "一个用于轻松高效组织和管理日程安排的互动Web应用程序。",
       "tech": [
-        "React",
-        "Next.js",
-        "Tailwind CSS",
-        "TypeScript"
+        "PHP",
+        "Laravel 12",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PostgreSQL",
+        "Supabase"
       ],
       "live": "https://scheduly-id.vercel.app/login",
       "bg": "#00E5B0",
       "image": "/scheduly.jpg"
     },
     {
-      "name": "Pantherax CMS",
-      "desc": "专门为 Pantherax Company 客户设计的 Headless 内容管理系统 (CMS)。具有高性能的仪表板，并且具有对于非技术用户极其易于操作的界面。",
+      "name": "Musholla Baitunnahri",
+      "desc": "一个渐进式网络应用（PWA），用于Baitunnahri清真寺的现金管理和信息，具有现代界面。",
       "tech": [
-        "Vue",
-        "Express",
-        "MongoDB"
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "Prisma",
+        "PostgreSQL",
+        "PWA"
       ],
-      "live": "https://example.com",
+      "live": "",
       "bg": "#00E5B0"
     }
   ],

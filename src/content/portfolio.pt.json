@@ -100,24 +100,32 @@
       "name": "Scheduly",
       "desc": "Uma aplicação web interativa para organizar e gerenciar horários de forma fácil e eficiente.",
       "tech": [
-        "React",
-        "Next.js",
-        "Tailwind CSS",
-        "TypeScript"
+        "PHP",
+        "Laravel 12",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PostgreSQL",
+        "Supabase"
       ],
       "live": "https://scheduly-id.vercel.app/login",
       "bg": "#00E5B0",
       "image": "/scheduly.jpg"
     },
     {
-      "name": "Pantherax CMS",
-      "desc": "Um Sistema de Gestão de Conteúdo (CMS) Headless projetado especificamente para clientes da Pantherax Company. Possui um painel de alto desempenho com uma interface extremamente fácil de operar por usuários não técnicos.",
+      "name": "Musholla Baitunnahri",
+      "desc": "Um aplicativo web progressivo (PWA) para gerenciamento de caixa e informações da Musholla Baitunnahri com uma interface moderna.",
       "tech": [
-        "Vue",
-        "Express",
-        "MongoDB"
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "Prisma",
+        "PostgreSQL",
+        "PWA"
       ],
-      "live": "https://example.com",
+      "live": "",
       "bg": "#00E5B0"
     }
   ],

@@ -100,24 +100,32 @@
       "name": "Scheduly",
       "desc": "تطبيق ويب تفاعلي لتنظيم وإدارة الجداول الزمنية بسهولة وكفاءة.",
       "tech": [
-        "React",
-        "Next.js",
-        "Tailwind CSS",
-        "TypeScript"
+        "PHP",
+        "Laravel 12",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PostgreSQL",
+        "Supabase"
       ],
       "live": "https://scheduly-id.vercel.app/login",
       "bg": "#00E5B0",
       "image": "/scheduly.jpg"
     },
     {
-      "name": "بانثيراكس CMS",
-      "desc": "نظام إدارة محتوى (CMS) مصمم خصيصًا لعملاء شركة بانثيراكس. يتميز بلوحة تحكم عالية الأداء مع واجهة مستخدم سهلة الاستخدام للغاية للمستخدمين غير التقنيين.",
+      "name": "Musholla Baitunnahri",
+      "desc": "تطبيق ويب تقدمي (PWA) لإدارة النقد والمعلومات لمصلى بيت النهرين بواجهة حديثة.",
       "tech": [
-        "Vue",
-        "Express",
-        "MongoDB"
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "Prisma",
+        "PostgreSQL",
+        "PWA"
       ],
-      "live": "https://example.com",
+      "live": "",
       "bg": "#00E5B0"
     }
   ],
