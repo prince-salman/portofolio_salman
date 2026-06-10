@@ -126,8 +126,9 @@
         "PostgreSQL",
         "PWA"
       ],
-      "live": "",
-      "bg": "#00E5B0"
+      "live": "https://musholla-baitunnahri.netlify.app/",
+      "bg": "#00E5B0",
+      "image": "/musholla.jpg"
     }
   ],
   "certificates": [
