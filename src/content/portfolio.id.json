@@ -129,6 +129,21 @@
       "live": "https://musholla-baitunnahri.netlify.app/",
       "bg": "#00E5B0",
       "image": "/musholla.jpg"
+    },
+    {
+      "name": "Riverside Villa",
+      "desc": "Aplikasi web interaktif untuk informasi dan penyewaan Riverside Villa, dibangun dengan arsitektur dan standar teknologi modern.",
+      "tech": [
+        "TypeScript",
+        "JavaScript",
+        "React.js",
+        "Next.js 15",
+        "Tailwind CSS",
+        "Node.js"
+      ],
+      "live": "https://riverside-villa.netlify.app/",
+      "bg": "#FFB800",
+      "image": "/riverside.jpg"
     }
   ],
   "certificates": [

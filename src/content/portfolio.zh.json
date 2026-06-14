@@ -128,6 +128,21 @@
       "live": "https://musholla-baitunnahri.netlify.app/",
       "bg": "#00E5B0",
       "image": "/musholla.jpg"
+    },
+    {
+      "name": "Riverside Villa",
+      "desc": "用于Riverside Villa信息和租赁的互动Web应用程序，采用现代架构和技术标准构建。",
+      "tech": [
+        "TypeScript",
+        "JavaScript",
+        "React.js",
+        "Next.js 15",
+        "Tailwind CSS",
+        "Node.js"
+      ],
+      "live": "https://riverside-villa.netlify.app/",
+      "bg": "#FFB800",
+      "image": "/riverside.jpg"
     }
   ],
   "certificates": [
