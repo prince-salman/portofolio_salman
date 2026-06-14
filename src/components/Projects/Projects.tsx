@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import styled from 'styled-components'
 import { RiGithubFill, RiExternalLinkLine } from 'react-icons/ri'
 import { useScrollReveal } from '../../hooks/useScrollReveal'
@@ -185,10 +186,55 @@ const ProjectLink = styled.a`
   }
 `
 
+const PaginationContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 4rem;
+`
+
+const PageButton = styled.button<{ $active?: boolean }>`
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: ${({ $active }) => $active ? 'var(--blue)' : 'var(--white)'};
+  color: ${({ $active }) => $active ? 'var(--white)' : 'var(--blue)'};
+  border: 2px solid var(--blue);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background: var(--blue);
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 0 var(--yellow);
+  }
+`
+
 export default function Projects() {
   const { ref, isVisible } = useScrollReveal()
   const portfolioData = usePortfolioData()
   const { t } = useTranslation()
+  const [currentPage, setCurrentPage] = useState(1)
+
+  const projectsPerPage = 3
+  const totalPages = Math.ceil(portfolioData.projects.length / projectsPerPage)
+  
+  const currentProjects = portfolioData.projects.slice(
+    (currentPage - 1) * projectsPerPage,
+    currentPage * projectsPerPage
+  )
+
+  const handlePageChange = (pageNumber: number) => {
+    setCurrentPage(pageNumber)
+    // Optional: scroll back to top of projects section
+    document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })
+  }
 
   return (
     <Section id="projects" ref={ref as any} className={`reveal ${isVisible ? 'is-visible' : ''}`}>
@@ -196,7 +242,7 @@ export default function Projects() {
       <SectionTitle>{t('sections.projTitle')}</SectionTitle>
 
       <ProjectsGrid>
-        {portfolioData.projects.map((project: any, i: number) => (
+        {currentProjects.map((project: any, i: number) => (
           <ProjectCard key={i}>
             {project.image ? (
               <img src={project.image} alt={project.name} style={{ width: '100%', height: '220px', objectFit: 'cover', borderBottom: '4px solid var(--blue)', display: 'block' }} />
@@ -231,6 +277,20 @@ export default function Projects() {
           </ProjectCard>
         ))}
       </ProjectsGrid>
+
+      {totalPages > 1 && (
+        <PaginationContainer>
+          {Array.from({ length: totalPages }, (_, index) => (
+            <PageButton 
+              key={index + 1} 
+              $active={currentPage === index + 1}
+              onClick={() => handlePageChange(index + 1)}
+            >
+              {index + 1}
+            </PageButton>
+          ))}
+        </PaginationContainer>
+      )}
     </Section>
   )
 }
