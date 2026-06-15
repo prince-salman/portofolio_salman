@@ -143,6 +143,20 @@
       "live": "https://riverside-villa.netlify.app/",
       "bg": "#FFB800",
       "image": "/riverside.jpg"
+    },
+    {
+      "name": "KayG Editing",
+      "desc": "Um site de portfólio profissional para serviços de design e edição de vídeo, construído com alto desempenho usando React e Vite.",
+      "tech": [
+        "JavaScript",
+        "React.js",
+        "CSS",
+        "HTML",
+        "Vite"
+      ],
+      "live": "https://kayg-editing.netlify.app/",
+      "bg": "#0033CC",
+      "image": "/kayg.jpg"
     }
   ],
   "certificates": [

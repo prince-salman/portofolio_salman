@@ -143,6 +143,20 @@
       "live": "https://riverside-villa.netlify.app/",
       "bg": "#FFB800",
       "image": "/riverside.jpg"
+    },
+    {
+      "name": "KayG Editing",
+      "desc": "一个专业的设计和视频编辑服务作品集网站，使用React和Vite构建以实现高性能。",
+      "tech": [
+        "JavaScript",
+        "React.js",
+        "CSS",
+        "HTML",
+        "Vite"
+      ],
+      "live": "https://kayg-editing.netlify.app/",
+      "bg": "#0033CC",
+      "image": "/kayg.jpg"
     }
   ],
   "certificates": [
