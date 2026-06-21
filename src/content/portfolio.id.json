@@ -158,6 +158,21 @@
       "live": "https://kayg-editing.netlify.app/",
       "bg": "#0033CC",
       "image": "/kayg.jpg"
+    },
+    {
+      "name": "Undangan Khitan",
+      "desc": "Website undangan digital elegan untuk acara khitanan, dilengkapi dengan animasi scroll yang mulus, efek glassmorphism, dan desain responsif.",
+      "tech": [
+        "React.js",
+        "Vite",
+        "CSS3",
+        "Framer Motion",
+        "Lucide React",
+        "HTML5"
+      ],
+      "live": "https://undangan-khitan-afta-rayyanza.netlify.app/",
+      "bg": "#D4AF37",
+      "image": "/undangan-khitan.jpg"
     }
   ],
   "certificates": [

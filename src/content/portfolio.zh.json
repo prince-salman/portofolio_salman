@@ -157,6 +157,21 @@
       "live": "https://kayg-editing.netlify.app/",
       "bg": "#0033CC",
       "image": "/kayg.jpg"
+    },
+    {
+      "name": "Undangan Khitan",
+      "desc": "一个优雅的割礼仪式数字邀请网站，具有流畅的滚动动画、玻璃拟态效果和响应式设计。",
+      "tech": [
+        "React.js",
+        "Vite",
+        "CSS3",
+        "Framer Motion",
+        "Lucide React",
+        "HTML5"
+      ],
+      "live": "https://undangan-khitan-afta-rayyanza.netlify.app/",
+      "bg": "#D4AF37",
+      "image": "/undangan-khitan.jpg"
     }
   ],
   "certificates": [
