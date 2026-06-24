@@ -42,6 +42,15 @@
   ],
   "education": [
     {
+      "school": "President University",
+      "status": "طالب جديد",
+      "year": "2026 - Sekarang",
+      "desc": "درجة البكالوريوس في تكنولوجيا المعلومات.",
+      "badgeText": "S1 IT",
+      "color": "var(--blue)",
+      "logo": "https://download.bloguna.com/uploads/197703/President-University.png"
+    },
+    {
       "school": "MAS Al Muhajirin Jakarta",
       "status": "Lulusan",
       "year": "2026",

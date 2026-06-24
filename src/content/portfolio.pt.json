@@ -42,6 +42,15 @@
   ],
   "education": [
     {
+      "school": "President University",
+      "status": "Calouro",
+      "year": "2026 - Sekarang",
+      "desc": "Bacharelado (S1) em Tecnologia da Informação.",
+      "badgeText": "S1 IT",
+      "color": "var(--blue)",
+      "logo": "https://download.bloguna.com/uploads/197703/President-University.png"
+    },
+    {
       "school": "MAS Al Muhajirin Jacarta",
       "status": "Graduado",
       "year": "2026",

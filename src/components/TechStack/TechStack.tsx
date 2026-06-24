@@ -1,10 +1,10 @@
 import styled, { keyframes } from 'styled-components'
 import {
-  SiJavascript, SiTypescript, SiPython, SiPhp, SiGo,
+  SiJavascript, SiTypescript, SiPython, SiPhp,
   SiReact, SiNextdotjs, SiNodedotjs, SiLaravel,
-  SiMysql, SiPostgresql, SiMongodb, SiRedis,
-  SiDocker, SiGit, SiLinux, SiPostman,
-  SiFigma, SiTailwindcss, SiVite
+  SiMysql, SiPostgresql, SiMongodb,
+  SiDocker, SiGit, SiLinux,
+  SiTailwindcss, SiVite
 } from 'react-icons/si'
 import { useScrollReveal } from '../../hooks/useScrollReveal'
 import { usePortfolioData } from '../../hooks/usePortfolioData'
@@ -133,8 +133,7 @@ const categories: { label: string; items: TechItem[] }[] = [
       { name: 'JavaScript', icon: <SiJavascript />, color: '#F7DF1E' },
       { name: 'TypeScript', icon: <SiTypescript />, color: '#3178C6' },
       { name: 'Python', icon: <SiPython />, color: '#3776AB' },
-      { name: 'PHP', icon: <SiPhp />, color: '#777BB4' },
-      { name: 'Go', icon: <SiGo />, color: '#00ADD8' },
+      { name: 'PHP', icon: <SiPhp />, color: '#777BB4' }
     ],
   },
   {
@@ -153,8 +152,7 @@ const categories: { label: string; items: TechItem[] }[] = [
     items: [
       { name: 'MySQL', icon: <SiMysql />, color: '#4479A1' },
       { name: 'PostgreSQL', icon: <SiPostgresql />, color: '#336791' },
-      { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' },
-      { name: 'Redis', icon: <SiRedis />, color: '#DC382D' },
+      { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' }
     ],
   },
   {
@@ -162,9 +160,7 @@ const categories: { label: string; items: TechItem[] }[] = [
     items: [
       { name: 'Docker', icon: <SiDocker />, color: '#2496ED' },
       { name: 'Git', icon: <SiGit />, color: '#F05032' },
-      { name: 'Linux', icon: <SiLinux />, color: '#FCC624' },
-      { name: 'Postman', icon: <SiPostman />, color: '#FF6C37' },
-      { name: 'Figma', icon: <SiFigma />, color: '#F24E1E' },
+      { name: 'Linux', icon: <SiLinux />, color: '#FCC624' }
     ],
   },
 ]

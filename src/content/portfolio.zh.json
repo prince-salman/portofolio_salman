@@ -42,6 +42,15 @@
   ],
   "education": [
     {
+      "school": "President University",
+      "status": "新生",
+      "year": "2026 - Sekarang",
+      "desc": "信息技术学士学位 (S1)。",
+      "badgeText": "S1 IT",
+      "color": "var(--blue)",
+      "logo": "https://download.bloguna.com/uploads/197703/President-University.png"
+    },
+    {
       "school": "MAS Al Muhajirin 雅加达",
       "status": "毕业生",
       "year": "2026",
