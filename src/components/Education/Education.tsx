@@ -161,8 +161,8 @@ export default function Education() {
               <EduContent>
                 <EduLevel>{edu.status}</EduLevel>
                 <EduName>{edu.school}</EduName>
-                <EduMeta>{portfolioData?.hero?.location?.split(',')[0] || "Jakarta"} • {t('misc.graduated')} {edu.year}</EduMeta>
-                {isLatest && (
+                <EduMeta>{portfolioData?.hero?.location?.split(',')[0] || "Jakarta"} • {edu.year}</EduMeta>
+                {isLatest && !edu.year.toString().includes('Sekarang') && !edu.year.toString().includes('Present') && (
                   <GraduateBadge>
                     {t('misc.latestGraduate')}
                   </GraduateBadge>
