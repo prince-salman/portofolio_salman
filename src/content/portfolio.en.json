@@ -48,7 +48,8 @@
       "desc": "Bachelor Degree (S1) in Information Technology.",
       "badgeText": "S1 IT",
       "color": "var(--blue)",
-      "logo": "https://download.bloguna.com/uploads/197703/President-University.png"
+      "logo": "https://download.bloguna.com/uploads/197703/President-University.png",
+      "location": "Cikarang"
     },
     {
       "school": "MAS Al Muhajirin Jakarta",
