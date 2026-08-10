@@ -183,6 +183,45 @@
       "live": "https://undangan-khitan-afta-rayyanza.netlify.app/",
       "bg": "#D4AF37",
       "image": "/undangan-khitan.jpg"
+    },
+    {
+      "name": "Portal Muhajirin",
+      "desc": "Integrated digital information and service portal for Muhajirin educational institutions.",
+      "tech": [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "live": "https://portalmuhajirin.netlify.app/",
+      "bg": "#0033CC",
+      "image": "/portalmuhajirin.jpg"
+    },
+    {
+      "name": "Tryout SNBT 2027",
+      "desc": "A responsive Tryout SNBT 2027 exam simulation platform for college entrance exam preparation.",
+      "tech": [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "PostgreSQL"
+      ],
+      "live": "https://tryout-snbt-2027.netlify.app/",
+      "bg": "#FFB800",
+      "image": "/tryoutsnbt.jpg"
+    },
+    {
+      "name": "Coding is Fun",
+      "desc": "An interactive educational website designed to make learning programming fun.",
+      "tech": [
+        "React.js",
+        "Vite",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "live": "https://coding-isfun.netlify.app/",
+      "bg": "#00E5B0",
+      "image": "/codingisfun.jpg"
     }
   ],
   "certificates": [
