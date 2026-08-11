@@ -275,6 +275,14 @@ export default function Guestbook() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     
+    // Anti-spam: Rate limiting (1 menit)
+    const lastSubmit = localStorage.getItem('lastCommentTime');
+    const now = Date.now();
+    if (lastSubmit && now - parseInt(lastSubmit) < 60000) {
+      alert("Mohon tunggu 1 menit sebelum mengirim komentar lagi.");
+      return;
+    }
+
     const cleanName = sanitizeInput(name)
     const cleanText = sanitizeInput(text)
     
@@ -287,13 +295,16 @@ export default function Guestbook() {
       name: cleanName,
       text: cleanText,
       date: new Date().toLocaleDateString('id-ID'),
-      timestamp: Date.now()
+      timestamp: now
     }
 
     try {
       const commentsRef = ref(database, 'guestbook')
       // Push to firebase (this will automatically sync back to all clients via onValue)
       await push(commentsRef, newComment)
+      
+      // Catat waktu pengiriman untuk mencegah spam (Rate Limiting)
+      localStorage.setItem('lastCommentTime', now.toString())
       
       // Reset form and go back to first page
       setName('')
