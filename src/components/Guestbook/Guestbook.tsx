@@ -245,11 +245,16 @@ export default function Guestbook() {
     const unsubscribe = onValue(commentsRef, (snapshot) => {
       const data = snapshot.val()
       if (data) {
-        // Convert object to array
+        // Convert object to array and filter out spam
         const loadedComments = Object.keys(data).map(key => ({
           id: key,
           ...data[key]
-        }))
+        })).filter((c: any) => 
+          c.name && c.text && 
+          c.name.trim() !== '' && c.text.trim() !== '' &&
+          c.timestamp && c.timestamp <= Date.now() + 86400000 &&
+          !c.name.toLowerCase().includes('fuck-stack')
+        )
         // Sort descending by timestamp (newest first)
         loadedComments.sort((a, b) => b.timestamp - a.timestamp)
         setComments(loadedComments)
