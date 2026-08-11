@@ -251,7 +251,7 @@ export default function Guestbook() {
           ...data[key]
         })).filter((c: any) => 
           c.name && c.text && 
-          c.name.trim() !== '' && c.text.trim() !== '' &&
+          c.name.trim().length >= 3 && c.text.trim().length >= 5 &&
           c.timestamp && c.timestamp <= Date.now() + 86400000 &&
           !c.name.toLowerCase().includes('fuck-stack')
         )
@@ -286,8 +286,8 @@ export default function Guestbook() {
     const cleanName = sanitizeInput(name)
     const cleanText = sanitizeInput(text)
     
-    if (!cleanName || !cleanText) {
-      alert("Komentar tidak boleh kosong atau hanya berisi kode HTML.");
+    if (cleanName.length < 3 || cleanText.length < 5) {
+      alert("Nama minimal 3 karakter dan pesan minimal 5 karakter.");
       return;
     }
 
