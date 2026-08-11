@@ -262,13 +262,25 @@ export default function Guestbook() {
     return () => unsubscribe()
   }, [])
 
+  const sanitizeInput = (str: string) => {
+    // Strip HTML tags to prevent XSS payloads
+    return str.replace(/<[^>]*>?/gm, '').trim();
+  }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    if (!name.trim() || !text.trim()) return
+    
+    const cleanName = sanitizeInput(name)
+    const cleanText = sanitizeInput(text)
+    
+    if (!cleanName || !cleanText) {
+      alert("Komentar tidak boleh kosong atau hanya berisi kode HTML.");
+      return;
+    }
 
     const newComment = {
-      name: name.trim(),
-      text: text.trim(),
+      name: cleanName,
+      text: cleanText,
       date: new Date().toLocaleDateString('id-ID'),
       timestamp: Date.now()
     }
