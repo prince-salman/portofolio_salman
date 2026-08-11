@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "guestbook": {
+      ".read": true,
+      "$comment_id": {
+        ".write": "!data.exists()",
+        ".validate": "newData.hasChildren(['name', 'text', 'date', 'timestamp']) && newData.child('name').isString() && newData.child('name').val().length > 0 && newData.child('name').val().length <= 50 && newData.child('text').isString() && newData.child('text').val().length > 0 && newData.child('text').val().length <= 500 && newData.child('timestamp').isNumber() && newData.child('timestamp').val() <= now"
+      }
+    }
+  }
+}
