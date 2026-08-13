@@ -268,8 +268,9 @@ export default function Guestbook() {
   }, [])
 
   const sanitizeInput = (str: string) => {
-    // Strip HTML tags to prevent XSS payloads
-    return str.replace(/<[^>]*>?/gm, '').trim();
+    // React secara otomatis meng-escape (menetralkan) semua tag HTML
+    // Jadi kita tidak perlu menghapusnya. Cukup trim spasi kosong.
+    return str.trim();
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
