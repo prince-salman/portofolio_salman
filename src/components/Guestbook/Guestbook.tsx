@@ -287,6 +287,12 @@ export default function Guestbook() {
     const cleanName = sanitizeInput(name)
     const cleanText = sanitizeInput(text)
     
+    // Validasi ketat sesuai permintaan user: Tolak karakter < dan >
+    if (cleanName.includes('<') || cleanName.includes('>') || cleanText.includes('<') || cleanText.includes('>')) {
+      alert("Karakter '<' dan '>' tidak diperbolehkan demi keamanan.");
+      return;
+    }
+    
     if (cleanName.length < 3 || cleanText.length < 5) {
       alert("Nama minimal 3 karakter dan pesan minimal 5 karakter.");
       return;
