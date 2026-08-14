@@ -245,13 +245,16 @@ export default function Guestbook() {
     const unsubscribe = onValue(commentsRef, (snapshot) => {
       const data = snapshot.val()
       if (data) {
-        // Convert object to array and filter out spam
+        // Convert object to array and filter out spam / XSS payloads
         const loadedComments = Object.keys(data).map(key => ({
           id: key,
           ...data[key]
         })).filter((c: any) => 
           c.name && c.text && 
+          typeof c.name === 'string' && typeof c.text === 'string' &&
           c.name.trim().length >= 3 && c.text.trim().length >= 5 &&
+          !c.name.includes('<') && !c.name.includes('>') &&
+          !c.text.includes('<') && !c.text.includes('>') &&
           c.timestamp && c.timestamp <= Date.now() + 86400000 &&
           !c.name.toLowerCase().includes('fuck-stack')
         )
