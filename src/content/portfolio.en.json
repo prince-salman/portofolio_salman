@@ -26,6 +26,13 @@
   },
   "organizations": [
     {
+      "period": "2026 - Present",
+      "role": "IT Division Staff",
+      "name": "PUMUN (President University Model United Nations)",
+      "desc": "Responsible for digital systems maintenance, IT infrastructure management, and web platform development to support the execution of the PUMUN conference.",
+      "badgeText": "PUMUN"
+    },
+    {
       "period": "2024 - 2025",
       "role": "Student Council President",
       "name": "MAS Al Muhajirin",
@@ -61,6 +68,15 @@
     }
   ],
   "companies": [
+    {
+      "name": "Simakara",
+      "role": "Web Dev Intern",
+      "period": "August 2026 - September 2026",
+      "desc": "Completed an internship program as a Web Developer, contributing to user interface (UI) design, modern web application feature development, and collaborating actively with the engineering team.",
+      "badgeText": "SK",
+      "color": "var(--yellow)",
+      "tilt": "rotate(1deg)"
+    },
     {
       "name": "Nexuvia Academy",
       "role": "Founder",

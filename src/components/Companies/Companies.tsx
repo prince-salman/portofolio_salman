@@ -39,7 +39,7 @@ const SectionSub = styled.p`
 
 const CompaniesGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
 
   @media (max-width: 900px) {
@@ -84,21 +84,39 @@ const CompanyLogo = styled.div<{ $bg: string }>`
   }
 `
 
-const CompanyInfo = styled.div`
-  h3 {
-    font-family: var(--font-display);
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
-  }
+const RoleMeta = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+
   .role {
     font-family: var(--font-mono);
     font-size: 0.75rem;
     text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 1rem;
     padding: 2px 6px;
     background: #eee;
     display: inline-block;
+  }
+
+  .period {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    background: var(--blue);
+    color: var(--white);
+    display: inline-block;
+  }
+`
+
+const CompanyInfo = styled.div`
+  h3 {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
   }
   p {
     font-family: var(--font-sans);
@@ -131,7 +149,10 @@ export default function Companies() {
             </CompanyLogo>
             <CompanyInfo>
               <h3>{company.name}</h3>
-              <div className="role">{company.role}</div>
+              <RoleMeta>
+                <span className="role">{company.role}</span>
+                {company.period && <span className="period">{company.period}</span>}
+              </RoleMeta>
               <p>{company.desc}</p>
             </CompanyInfo>
           </CompanyCard>

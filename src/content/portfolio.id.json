@@ -26,6 +26,13 @@
   },
   "organizations": [
     {
+      "period": "2026 - Sekarang",
+      "role": "Divisi IT (IT Staff)",
+      "name": "PUMUN (President University Model United Nations)",
+      "desc": "Bertanggung jawab atas pemeliharaan sistem digital, pengelolaan infrastruktur teknologi informasi, dan pengembangan platform web untuk mendukung penyelenggaraan konferensi PUMUN.",
+      "badgeText": "PUMUN"
+    },
+    {
       "period": "2024 - 2025",
       "role": "Ketua OSIS",
       "name": "MAS Al Muhajirin",
@@ -62,6 +69,15 @@
     }
   ],
   "companies": [
+    {
+      "name": "Simakara",
+      "role": "Web Dev Intern",
+      "period": "Agustus 2026 - September 2026",
+      "desc": "Menjalani program magang sebagai Web Developer, berkontribusi dalam perancangan antarmuka (UI), pengembangan fitur aplikasi web modern, serta berkolaborasi aktif dengan tim engineering.",
+      "badgeText": "SK",
+      "color": "var(--yellow)",
+      "tilt": "rotate(1deg)"
+    },
     {
       "name": "Nexuvia Academy",
       "role": "Founder",
