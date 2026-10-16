@@ -83,8 +83,9 @@
       "period": "August 2026 - September 2026",
       "desc": "Completed an internship program as a Web Developer, contributing to user interface (UI) design, modern web application feature development, and collaborating actively with the engineering team.",
       "badgeText": "SK",
-      "color": "var(--yellow)",
-      "tilt": "rotate(1deg)"
+      "color": "var(--white)",
+      "tilt": "rotate(1deg)",
+      "logo": "/uploads/simakara-logo.jpeg"
     },
     {
       "name": "Nexuvia Academy",

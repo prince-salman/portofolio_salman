@@ -83,8 +83,9 @@
       "period": "2026年8月 - 2026年9月",
       "desc": "作为Web开发实习生参与实习项目，贡献于现代Web应用的用户界面（UI）设计、功能开发，并与工程团队积极协作。",
       "badgeText": "SK",
-      "color": "var(--yellow)",
-      "tilt": "rotate(1deg)"
+      "color": "var(--white)",
+      "tilt": "rotate(1deg)",
+      "logo": "/uploads/simakara-logo.jpeg"
     },
     {
       "name": "Nexuvia Academy",
