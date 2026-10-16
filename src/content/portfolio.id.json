@@ -30,7 +30,8 @@
       "role": "Divisi IT (IT Staff)",
       "name": "PUMUN (President University Model United Nations)",
       "desc": "Bertanggung jawab atas pemeliharaan sistem digital, pengelolaan infrastruktur teknologi informasi, dan pengembangan platform web untuk mendukung penyelenggaraan konferensi PUMUN.",
-      "badgeText": "PUMUN"
+      "badgeText": "PUMUN",
+      "logo": "/uploads/pumun-logo.png"
     },
     {
       "period": "2024 - 2025",

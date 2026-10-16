@@ -80,11 +80,11 @@ const TimelineItem = styled.div<{ $rotate: string }>`
   }
 `
 
-const TimelineDot = styled.div`
+const TimelineDot = styled.div<{ $hasLogo?: boolean }>`
   width: 64px;
   height: 64px;
   min-width: 64px;
-  background: var(--yellow);
+  background: ${({ $hasLogo }) => ($hasLogo ? 'var(--white)' : 'var(--yellow)')};
   border: 4px solid var(--blue);
   box-shadow: 4px 4px 0 var(--blue);
   display: flex;
@@ -95,6 +95,13 @@ const TimelineDot = styled.div`
   position: relative;
   z-index: 1;
   transform: rotate(5deg);
+  overflow: hidden;
+
+  img {
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+  }
 
   @media (max-width: 600px) {
     width: 54px;
@@ -177,9 +184,9 @@ export default function Organizations() {
           const Icon = i % 2 === 0 ? RiTeamLine : RiLeafLine
           return (
             <TimelineItem key={i} $rotate={rotation}>
-              <TimelineDot>
+              <TimelineDot $hasLogo={!!org.logo}>
                 {org.logo ? (
-                  <img src={org.logo} alt={org.name} style={{ width: '60%', height: '60%', objectFit: 'contain' }} />
+                  <img src={org.logo} alt={org.name} />
                 ) : (
                   <Icon />
                 )}

@@ -30,7 +30,8 @@
       "role": "Membro da Divisão de TI",
       "name": "PUMUN (President University Model United Nations)",
       "desc": "Responsável pela manutenção de sistemas digitais, gerenciamento de infraestrutura de TI e desenvolvimento de plataforma web para apoiar a conferência PUMUN.",
-      "badgeText": "PUMUN"
+      "badgeText": "PUMUN",
+      "logo": "/uploads/pumun-logo.png"
     },
     {
       "period": "2024 - 2025",

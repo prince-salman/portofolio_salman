@@ -30,7 +30,8 @@
       "role": "IT部门成员 (IT Staff)",
       "name": "PUMUN (总统大学模拟联合国)",
       "desc": "负责数字系统维护、IT基础设施管理和网络平台开发，以支持PUMUN会议的顺利举办。",
-      "badgeText": "PUMUN"
+      "badgeText": "PUMUN",
+      "logo": "/uploads/pumun-logo.png"
     },
     {
       "period": "2024 - 2025",

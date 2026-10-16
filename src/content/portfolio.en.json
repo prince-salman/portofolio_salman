@@ -30,7 +30,8 @@
       "role": "IT Division Staff",
       "name": "PUMUN (President University Model United Nations)",
       "desc": "Responsible for digital systems maintenance, IT infrastructure management, and web platform development to support the execution of the PUMUN conference.",
-      "badgeText": "PUMUN"
+      "badgeText": "PUMUN",
+      "logo": "/uploads/pumun-logo.png"
     },
     {
       "period": "2024 - 2025",
