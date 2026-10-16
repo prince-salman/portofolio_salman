@@ -27,6 +27,14 @@
   "organizations": [
     {
       "period": "2026 - Present",
+      "role": "IT Staff - Web Developer",
+      "name": "PLRC (President University Literature and Research Club)",
+      "desc": "Responsible for the design, development, and maintenance of the official PLRC website, managing digital research and literature publishing systems, and providing IT technical support for club programs.",
+      "badgeText": "PLRC",
+      "logo": "/uploads/plrc-logo.png"
+    },
+    {
+      "period": "2026 - Present",
       "role": "IT Division Staff",
       "name": "PUMUN (President University Model United Nations)",
       "desc": "Responsible for digital systems maintenance, IT infrastructure management, and web platform development to support the execution of the PUMUN conference.",

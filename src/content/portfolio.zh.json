@@ -27,6 +27,14 @@
   "organizations": [
     {
       "period": "2026 - 至今",
+      "role": "IT部门 - Web开发人员 (IT Staff - Web Developer)",
+      "name": "PLRC (总统大学文学与研究俱乐部)",
+      "desc": "负责PLRC官方网站的设计、开发与日常维护，管理数字学术研究与文学出版系统，并为俱乐部项目提供全面的IT技术支持。",
+      "badgeText": "PLRC",
+      "logo": "/uploads/plrc-logo.png"
+    },
+    {
+      "period": "2026 - 至今",
       "role": "IT部门成员 (IT Staff)",
       "name": "PUMUN (总统大学模拟联合国)",
       "desc": "负责数字系统维护、IT基础设施管理和网络平台开发，以支持PUMUN会议的顺利举办。",

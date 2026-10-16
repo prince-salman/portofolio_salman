@@ -27,6 +27,14 @@
   "organizations": [
     {
       "period": "2026 - Presente",
+      "role": "Equipe de TI - Desenvolvedor Web",
+      "name": "PLRC (President University Literature and Research Club)",
+      "desc": "Responsável pelo design, desenvolvimento e manutenção do site oficial do PLRC, gerenciamento de sistemas de publicação digital de pesquisa e literatura, e suporte técnico de TI para os programas do clube.",
+      "badgeText": "PLRC",
+      "logo": "/uploads/plrc-logo.png"
+    },
+    {
+      "period": "2026 - Presente",
       "role": "Membro da Divisão de TI",
       "name": "PUMUN (President University Model United Nations)",
       "desc": "Responsável pela manutenção de sistemas digitais, gerenciamento de infraestrutura de TI e desenvolvimento de plataforma web para apoiar a conferência PUMUN.",
