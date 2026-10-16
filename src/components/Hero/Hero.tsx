@@ -44,13 +44,13 @@ const HeroSection = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 80px 4rem 4rem;
+  padding: 130px 4rem 4rem;
   position: relative;
   gap: 2rem;
 
   @media (max-width: 1024px) {
     grid-template-columns: 1fr;
-    padding: 100px 2rem 4rem;
+    padding: 120px 2rem 4rem;
     text-align: center;
   }
 `

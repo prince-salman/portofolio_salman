@@ -97,11 +97,11 @@ const LangOption = styled.button<{ $active: boolean }>`
 `;
 
 const LANGUAGES = [
-  { code: 'id', label: 'Indonesia', flagUrl: 'https://flagcdn.com/w40/id.png' },
-  { code: 'en', label: 'English', flagUrl: 'https://flagcdn.com/w40/gb.png' },
-  { code: 'zh', label: '中文 (Mandarin)', flagUrl: 'https://flagcdn.com/w40/cn.png' },
-  { code: 'pt', label: 'Português', flagUrl: 'https://flagcdn.com/w40/pt.png' },
-  { code: 'ar', label: 'العربية (Arabic)', flagUrl: 'https://flagcdn.com/w40/sa.png' },
+  { code: 'id', label: 'Indonesia', flagUrl: '/flags/id.png' },
+  { code: 'en', label: 'English', flagUrl: '/flags/gb.png' },
+  { code: 'zh', label: '中文 (Mandarin)', flagUrl: '/flags/cn.png' },
+  { code: 'pt', label: 'Português', flagUrl: '/flags/pt.png' },
+  { code: 'ar', label: 'العربية (Arabic)', flagUrl: '/flags/sa.png' },
 ];
 
 // SVG Icon definition to avoid importing react-icons if not strictly needed

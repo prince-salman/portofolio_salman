@@ -20,6 +20,8 @@ const NavShell = styled.header`
   padding: 15px 40px;
   gap: 20px;
   min-height: 80px;
+  border-bottom: 3px solid #000;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.15);
 
   @media (max-width: 860px) {
     padding: 15px 20px;
